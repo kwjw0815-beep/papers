@@ -30,6 +30,7 @@ Questions to ask myself when reading papers.. (Reference : Guide to Reading Acad
 
 | 상위 폴더 | 범위 |
 |---|---|
+| [00_Foundations](00_Foundations) | **기초 지식** — 자료를 이해하는 데 필요한 수학·통계·ML·도구·논문 읽는 법, 학습 로드맵 |
 | [01_Statistics_Math](01_Statistics_Math) | 통계·확률·선형대수·최적화 |
 | [02_Machine_Learning](02_Machine_Learning) | 고전 ML, 피처 엔지니어링, 모델 평가 |
 | [03_Deep_Learning](03_Deep_Learning) | 딥러닝 일반 |
@@ -41,5 +42,10 @@ Questions to ask myself when reading papers.. (Reference : Guide to Reading Acad
 | [09_Data_Engineering_MLOps](09_Data_Engineering_MLOps) | 데이터 파이프라인, MLOps |
 | [10_Analytics_Business](10_Analytics_Business) | 지표, 프로덕트 분석, 시각화 |
 | [11_Career_Trends](11_Career_Trends) | 커리어, 업계 동향 |
+
+각 분야 폴더에는 **`READING_LIST.md`**(데이터사이언티스트 필독 논문·강의·영상·책, 난이도 ①입문→②핵심→③심화 순)가 있고,
+각 자료의 `선수 지식` 열은 [`00_Foundations/`](00_Foundations)의 해당 문서로 연결됩니다.
+
+**어디서부터 시작할까?** → [00_Foundations/README.md](00_Foundations/README.md)의 로드맵과 "처음 4주 제안"
 
 템플릿은 [`_templates/`](_templates)에 있습니다.
