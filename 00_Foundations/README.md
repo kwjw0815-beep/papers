@@ -16,6 +16,7 @@
 | 7 | [인과·실험 기초](07_causal-experiment-basics.md) | 상관≠인과, 무작위 배정, 교란 | 08, 10, 06 |
 | 8 | [도구](08_data-tools.md) | Python, SQL, Git, 재현성 | 09, 10 및 모든 실습 |
 | 9 | [논문 읽는 법](09_how-to-read-papers.md) | 3단계 읽기, 표·그림 읽기, 비판적 질문 | 전부 |
+| 10 | [논문 읽기 워크북](10_paper-reading-workbook.md) | 실제 논문으로 읽기·정리·기억을 연습 (풀이 포함), 6주 계획 | 전부 |
 | - | [용어집](glossary.md) | 자주 나오는 용어 영-한 대조 | 전부 |
 
 ## 추천 학습 순서 (로드맵)
@@ -39,12 +40,7 @@
 - 데이터 **분석가** 지향이면 0 → 1(통계 위주) → 2 → 인과·실험 쪽을 깊게.
 - **ML 엔지니어/리서치** 지향이면 0 → 1 → 2 → 3 → 4를 깊게.
 
-## 처음 4주 제안 (하루 1~2시간 기준)
-| 주 | 할 일 |
-|---|---|
-| 1 | 08 도구 확인 · 3Blue1Brown 선형대수 시리즈 · 01, 02 문서 |
-| 2 | StatQuest로 통계 기초 · 03 문서 · Breiman "Two Cultures" 읽기 |
-| 3 | 04 문서 · Google ML Crash Course · Domingos "A Few Useful Things" 읽고 노트 작성 |
-| 4 | 05, 06 문서 · Karpathy micrograd 영상 · Illustrated Transformer → "Attention Is All You Need" 도전 |
+## 처음 6주
+주차별 논문·실습·산출물은 [논문 읽기 워크북의 6주 훈련 계획](10_paper-reading-workbook.md#11-6주-훈련-계획)을 따른다. 실습 노트북 전체 목록은 [LABS.md](../LABS.md), 모델을 직접 학습·해부하는 트랙은 [12_Open_Models](../12_Open_Models).
 
 모르는 것이 생기면 이 저장소에서 Claude에게 질문하면, 답변은 해당 자료의 `qna.md`에, 반복되는 기초 개념은 이 폴더에 보강된다.

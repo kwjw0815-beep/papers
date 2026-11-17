@@ -147,7 +147,7 @@
 - **Olmo 3**: Think / Instruct / RL-Zero 경로 각각에 대해 SFT → DPO → RLVR 단계별 체크포인트가 Hugging Face에 있고(예: `Olmo-3-7B-Instruct-SFT`, `-DPO`), 후처리 데이터 모음(Dolci)과 코드(open-instruct)가 공개되어 있다.
 - **Apertus v1.5**: `-SFT`, `-DPO`, `-RL` 체크포인트가 따로 올라와 있다.
 - **nanochat**: `scripts/chat_sft.py`, `scripts/chat_rl.py`, 과제 정의는 `tasks/` (GSM8K, MMLU, SmolTalk 등).
-- [lab03](labs/lab03_checkpoints_finetune_eval.ipynb) 2절: 작은 모델에 LoRA로 SFT를 해 본다.
+- 이 문서의 5~7단계 과제
 - 가중치만 공개된 모델의 경우: 이 단계의 데이터와 절차는 대부분 비공개다. [체크리스트](01_openness-levels.md#4-판별-체크리스트-모델-하나에-10분) 10번.
 
 **확인 질문**
@@ -174,7 +174,7 @@
 - nanochat: `scripts/base_eval.py`(CORE 점수), `scripts/chat_eval.py`. README의 리더보드는 "GPT-2의 CORE 점수를 넘기까지 걸린 시간"을 잰다 — **목표 성능을 고정하고 비용을 비교하는** 평가 설계의 예다.
 - Olmo 3: 평가 도구 OLMES와 평가 모음을 공개했고, 블로그의 결과 표는 "3회 실행의 평균"임을 밝힌다.
 - 표준 도구: [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness)
-- [lab03](labs/lab03_checkpoints_finetune_eval.ipynb) 3절: 미세조정 전후를 신뢰구간과 함께 비교
+- 이 문서의 5~7단계 과제
 
 **확인 질문**
 1. 모델 카드의 벤치마크 표 하나를 골라, 평가 조건(프롬프트, few-shot 수, 반복 횟수)이 어디에 적혀 있는지 찾아보라. 없다면 그 숫자를 다른 모델의 숫자와 비교해도 되는가?

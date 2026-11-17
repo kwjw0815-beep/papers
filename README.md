@@ -42,10 +42,20 @@ Questions to ask myself when reading papers.. (Reference : Guide to Reading Acad
 | [09_Data_Engineering_MLOps](09_Data_Engineering_MLOps) | 데이터 파이프라인, MLOps |
 | [10_Analytics_Business](10_Analytics_Business) | 지표, 프로덕트 분석, 시각화 |
 | [11_Career_Trends](11_Career_Trends) | 커리어, 업계 동향 |
+| [12_Open_Models](12_Open_Models) | **학습 코드·데이터·가중치가 모두 공개된 모델**을 직접 학습·해부하는 트랙 (공부 방법, 학습 전 과정, 모델별 가이드) |
 
-각 분야 폴더에는 **`READING_LIST.md`**(데이터사이언티스트 필독 논문·강의·영상·책, 난이도 ①입문→②핵심→③심화 순)가 있고,
-각 자료의 `선수 지식` 열은 [`00_Foundations/`](00_Foundations)의 해당 문서로 연결됩니다.
+각 분야 폴더의 구성:
 
-**어디서부터 시작할까?** → [00_Foundations/README.md](00_Foundations/README.md)의 로드맵과 "처음 4주 제안"
+| 파일 | 내용 |
+|---|---|
+| `READING_LIST.md` | 필독 논문·강의·영상·책 (①입문→②핵심→③심화, ★ 먼저 읽을 것, 🆕 2025~2026 자료) |
+| `PRACTICE.md` | 자료를 읽는 순서, 실습 과제, 기억 점검 퀴즈 |
+| `labs/*.ipynb` | 논문의 핵심 주장을 직접 확인하는 실습 노트북 (실행 검증됨) → 전체 목록 [LABS.md](LABS.md) |
+| `YYYY-MM-DD_주제-slug/` | 읽은 자료의 정리 노트 |
 
-템플릿은 [`_templates/`](_templates)에 있습니다.
+**어디서부터 시작할까?**
+1. [논문 읽기·정리·기억 훈련 워크북](00_Foundations/10_paper-reading-workbook.md) — 읽는 법을 실제 논문으로 연습 (6주 계획 포함)
+2. [00_Foundations](00_Foundations/README.md) — 막히는 기초 개념
+3. [12_Open_Models](12_Open_Models/README.md) — 공개 모델을 직접 학습하고 뜯어보기
+
+템플릿은 [`_templates/`](_templates)에 있습니다 (논문 노트, 미디어 노트, Q&A, 추천 자료, 모델 해부 노트).

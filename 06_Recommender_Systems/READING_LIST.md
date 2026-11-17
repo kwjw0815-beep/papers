@@ -3,7 +3,8 @@
 협업 필터링 → 행렬 분해 → 딥러닝 랭킹 → 산업 사례 순서.
 
 > **읽는 법:** ①→②→③ 순서. **★** 는 먼저 읽을 코어 자료, **🆕** 는 2025~2026년에 나온 자료다.  
-> `선수 지식`의 문서를 먼저 훑고 오면 수월하다. 읽고 정리한 자료는 `상태`를 ✅로 바꾸고 노트 폴더를 연결한다.
+> `선수 지식`의 문서를 먼저 훑고 오면 수월하다. 읽고 정리한 자료는 `상태`를 ✅로 바꾸고 노트 폴더를 연결한다.  
+> 읽기 가이드·실습 과제·기억 점검 퀴즈는 [PRACTICE.md](PRACTICE.md), 실습 노트북은 [LABS.md](../LABS.md).
 
 **먼저 읽을 것 (★)**: Matrix Factorization Techniques for Recommender Systems → Deep Neural Networks for YouTube Recommendations
 

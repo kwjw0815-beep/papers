@@ -40,3 +40,8 @@
 | token | 토큰 | 모델이 처리하는 텍스트의 최소 단위 | [06](06_attention-transformer.md) |
 | treatment effect | 처치 효과 | 개입이 결과에 미친 인과적 영향 | [07](07_causal-experiment-basics.md) |
 | zero-shot / few-shot | 제로샷 / 퓨샷 | 예시 없이 / 몇 개의 예시만으로 과제 수행 | [06](06_attention-transformer.md) |
+| open-weight / fully open | 가중치 공개 / 완전 공개 | 가중치만 공개 vs 학습 데이터·코드·가중치·체크포인트까지 공개 | [12](../12_Open_Models/01_openness-levels.md) |
+| checkpoint | 체크포인트 | 학습 도중 저장한 가중치 | [12](../12_Open_Models/03_training-pipeline.md) |
+| SFT / DPO / RLVR | 지도 미세조정 / 선호 학습 / 검증 가능한 보상 강화학습 | 사전학습 뒤 모델을 대화·지시 수행용으로 만드는 후처리 단계들 | [12](../12_Open_Models/03_training-pipeline.md) |
+| standard error | 표준오차 | 추정치가 표본마다 흔들리는 정도 | [03](03_probability-statistics.md) |
+| degradation | 성능 저하 문제 | 층을 늘렸을 때 학습 오차부터 나빠지는 현상 | [ResNet 노트](../03_Deep_Learning/2026-11-16_resnet-deep-residual-learning/summary.md) |

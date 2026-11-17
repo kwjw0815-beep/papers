@@ -3,7 +3,8 @@
 고전 통계 모델을 먼저 익히고, 딥러닝이 정말 더 나은지 비판적으로 본다.
 
 > **읽는 법:** ①→②→③ 순서. **★** 는 먼저 읽을 코어 자료, **🆕** 는 2025~2026년에 나온 자료다.  
-> `선수 지식`의 문서를 먼저 훑고 오면 수월하다. 읽고 정리한 자료는 `상태`를 ✅로 바꾸고 노트 폴더를 연결한다.
+> `선수 지식`의 문서를 먼저 훑고 오면 수월하다. 읽고 정리한 자료는 `상태`를 ✅로 바꾸고 노트 폴더를 연결한다.  
+> 읽기 가이드·실습 과제·기억 점검 퀴즈는 [PRACTICE.md](PRACTICE.md), 실습 노트북은 [LABS.md](../LABS.md).
 
 **먼저 읽을 것 (★)**: Statistical and Machine Learning forecasting methods: Concerns and ways forward → Are Transformers Effective for Time Series Forecasting?
 

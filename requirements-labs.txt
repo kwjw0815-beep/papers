@@ -1,0 +1,15 @@
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+statsmodels
+xgboost
+lightgbm
+shap
+torch
+transformers
+sentence-transformers
+safetensors
+chronos-forecasting
+jupyterlab

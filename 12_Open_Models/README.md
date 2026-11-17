@@ -23,7 +23,7 @@
 | 3 | [03_training-pipeline.md](03_training-pipeline.md) | **공부 내용** — 데이터에서 가중치까지 LLM이 만들어지는 전 과정과, 각 단계를 공개 모델에서 확인하는 곳 |
 | 4 | [04_model-guides.md](04_model-guides.md) | 모델별 가이드 — nanoGPT·nanochat, TinyStories, Pythia, SmolLM2/3, OLMo 2/3, Apertus, Marin |
 | 5 | [READING_LIST.md](READING_LIST.md) · [PRACTICE.md](PRACTICE.md) | 관련 논문·저장소 목록과 자료별 실습 과제 |
-| 6 | [labs/](labs) | 실습 노트북 3개 (아래) |
+| 6 | [labs/](labs) | 실습 노트북 2개 (아래) |
 | - | [모델 해부 노트 템플릿](../_templates/model_study.md) | 모델 하나를 공부할 때 채우는 양식 |
 
 ## 실습 노트북
@@ -34,7 +34,7 @@
 |---|---|---|
 | [lab01_inspect_open_model](labs/lab01_inspect_open_model.ipynb) | 공개 가중치(SmolLM2-135M)를 내려받아 설정·파라미터·토크나이저·생성 과정을 하나씩 열어 본다 | 2·3단계 |
 | [lab02_train_tiny_gpt_end_to_end](labs/lab02_train_tiny_gpt_end_to_end.ipynb) | 데이터 준비 → 토크나이저 → 모델 정의 → 학습 → 체크포인트 저장·재로딩 → 생성 → 모델 카드 작성까지 한 번에 | 4단계 |
-| [lab03_checkpoints_finetune_eval](labs/lab03_checkpoints_finetune_eval.ipynb) | Pythia의 학습 중간 체크포인트를 비교하고, LoRA로 미세조정한 뒤 오차 막대와 함께 평가한다 | 5·6·7단계 |
+| (노트북 없음) 5~7단계 | Pythia 체크포인트 비교, LoRA 미세조정, 오차 막대가 붙은 평가 — [02_study-method.md](02_study-method.md)의 절차대로 직접 작성 | 5·6·7단계 |
 
 ## 한눈에 보는 모델 지도
 
@@ -61,8 +61,8 @@
 | 1 | [01](01_openness-levels.md), [02](02_study-method.md) 읽기 → Karpathy *Deep Dive into LLMs* 영상 → [lab01](labs/lab01_inspect_open_model.ipynb) | SmolLM2-135M 해부 노트 (템플릿 1~3절) |
 | 2 | [03](03_training-pipeline.md)의 데이터·토크나이저·구조 절 → [lab02](labs/lab02_train_tiny_gpt_end_to_end.ipynb) | 직접 학습한 모델의 손실 곡선 + 모델 카드 |
 | 3 | nanoGPT 코드 읽기(`model.py` → `train.py`) → 셰익스피어 모델을 설정을 바꿔 가며 학습 | "바꾼 것 → 결과" 실험 기록 3줄 |
-| 4 | *Pythia* 논문 읽기 → [lab03](labs/lab03_checkpoints_finetune_eval.ipynb) 앞부분(체크포인트 비교) | 체크포인트별 손실 그래프와 해석 |
-| 5 | [03](03_training-pipeline.md)의 후처리·평가 절 → [lab03](labs/lab03_checkpoints_finetune_eval.ipynb) 뒷부분(LoRA, 평가) → *SmolLM2* 논문 또는 SmolLM3 모델 카드 | 미세조정 전후 평가표(신뢰구간 포함) |
+| 4 | *Pythia* 논문 읽기 → [공부 방법](02_study-method.md) 5단계(체크포인트 비교) | 체크포인트별 손실 그래프와 해석 |
+| 5 | [03](03_training-pipeline.md)의 후처리·평가 절 → [공부 방법](02_study-method.md) 6·7단계(LoRA, 평가) → *SmolLM2* 논문 또는 SmolLM3 모델 카드 | 미세조정 전후 평가표(신뢰구간 포함) |
 | 6 | *Olmo 3* 보고서를 [논문 읽기 워크북](../00_Foundations/10_paper-reading-workbook.md) 방식으로 정독 → 모델 해부 노트 완성 | `summary.md` + 모델 해부 노트 |
 | 선택 | GPU를 빌려 nanochat `runs/speedrun.sh` 완주 | 내가 학습한 채팅 모델 |
 

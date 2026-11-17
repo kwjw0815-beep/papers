@@ -90,7 +90,7 @@ tokenizer = AutoTokenizer.from_pretrained("EleutherAI/pythia-70m-deduped", revis
 ```
 
 **무엇을 볼 것인가**
-- 같은 문장에 대한 손실이 step에 따라 어떻게 내려가는가 → [lab03](labs/lab03_checkpoints_finetune_eval.ipynb) 1절
+- 같은 문장에 대한 손실이 step에 따라 어떻게 내려가는가 (노트북 없음 — 아래 절차대로 직접 작성)
 - 크기가 다른 모델이 **같은 step에서** 얼마나 다른가(같은 데이터를 봤으므로 공정한 비교)
 - 논문의 사례 연구: 암기, 단어 빈도와 few-shot 성능, 성별 편향 줄이기. 각 사례가 "체크포인트와 데이터 순서가 공개되어 있어서" 가능했던 이유
 
