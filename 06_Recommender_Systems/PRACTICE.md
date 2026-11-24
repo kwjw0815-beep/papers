@@ -2,6 +2,8 @@
 
 [필독 목록](READING_LIST.md)의 자료를 **읽고 → 해 보고 → 기억하는** 순서로 쓰는 문서. 읽는 요령은 [논문 읽기 워크북](../00_Foundations/10_paper-reading-workbook.md), 노트북 실행법은 [LABS.md](../LABS.md).
 
+> 🇰🇷 영어가 부담되면 [READING_LIST.md](READING_LIST.md) 맨 위의 **🇰🇷 한국어로 시작하기** 표와 [KOREAN_START.md](../KOREAN_START.md)부터 본다. 아래 논문 가이드의 **🇰🇷 한국어로 먼저** 줄에 한국어 해설을 달아 두었다.
+
 ## 이 폴더의 실습
 - [lab01_cf_mf_bpr](labs/lab01_cf_mf_bpr.ipynb) — 인기도·item-kNN·BPR-MF·커버리지
 
@@ -36,6 +38,7 @@
 [DOI](https://doi.org/10.1145/2959100.2959190)
 
 - **이 논문이 답하는 질문:** 수억 개의 영상에서 어떻게 후보를 뽑고 순위를 매기는가.
+- **🇰🇷 한국어로 먼저:** [한국어 논문 정리](https://neatynut.github.io/deeplearning/dl_007)
 - **읽기 가이드:** 시스템 그림(후보 생성 → 랭킹) → 후보 생성을 '극단적 다중 분류'로 본 부분 → 예시 나이(example age) 특성 → 랭킹의 목표를 클릭이 아닌 시청 시간으로 삼은 이유. 오프라인 지표와 A/B 테스트에 대한 언급을 찾는다.
 - **실습:** Lab 01의 직접 해보기 2(본 아이템 임베딩 평균으로 사용자 벡터 만들기)와 5절(커버리지).
 

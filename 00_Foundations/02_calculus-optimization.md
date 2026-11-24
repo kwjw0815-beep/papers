@@ -40,3 +40,7 @@
 - 영상: [3Blue1Brown — Neural Networks 시리즈](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) 2~4편 (경사하강·역전파)
 - 영상: [Karpathy — micrograd](https://www.youtube.com/watch?v=VMj-3S1tku0)
 - 책: [Mathematics for Machine Learning](https://mml-book.github.io/) 5, 7장
+- 🇰🇷 영상: [3Blue1Brown 한국어 — 미적분학의 본질](https://www.youtube.com/playlist?list=PLkoaXOTFHiqjfsanyvicarnZv-YLC8QN-)
+- 🇰🇷 강의: [혁펜하임 — Adam 완벽 정리](https://www.youtube.com/watch?v=wVBuPlBBbAE)
+- 🇰🇷 책: [밑바닥부터 시작하는 딥러닝 1 (리마스터판)](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=356399264) — 경사하강·역전파·옵티마이저를 넘파이로 직접 구현
+- 🇰🇷 웹책(심화): [모두를 위한 컨벡스 최적화](https://convex-optimization-for-all.github.io/)

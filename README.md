@@ -48,12 +48,13 @@ Questions to ask myself when reading papers.. (Reference : Guide to Reading Acad
 
 | 파일 | 내용 |
 |---|---|
-| `READING_LIST.md` | 필독 논문·강의·영상·책 (①입문→②핵심→③심화, ★ 먼저 읽을 것, 🆕 2025~2026 자료) |
+| `READING_LIST.md` | 맨 위 🇰🇷 한국어 자료 표 + 필독 논문·강의·영상·책 (①입문→②핵심→③심화, ★ 먼저 읽을 것, 🆕 2025~2026 자료) |
 | `PRACTICE.md` | 자료를 읽는 순서, 실습 과제, 기억 점검 퀴즈 |
 | `labs/*.ipynb` | 논문의 핵심 주장을 직접 확인하는 실습 노트북 (실행 검증됨) → 전체 목록 [LABS.md](LABS.md) |
 | `YYYY-MM-DD_주제-slug/` | 읽은 자료의 정리 노트 |
 
 **어디서부터 시작할까?**
+0. 🇰🇷 영어가 부담되면 → [한국어로 시작하기](KOREAN_START.md) — 번역서·한국어 강의·논문 리뷰로 시작하는 6주 경로
 1. [논문 읽기·정리·기억 훈련 워크북](00_Foundations/10_paper-reading-workbook.md) — 읽는 법을 실제 논문으로 연습 (6주 계획 포함)
 2. [00_Foundations](00_Foundations/README.md) — 막히는 기초 개념
 3. [12_Open_Models](12_Open_Models/README.md) — 공개 모델을 직접 학습하고 뜯어보기

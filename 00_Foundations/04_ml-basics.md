@@ -58,3 +58,6 @@
 - 강의: [Google ML Crash Course](https://developers.google.com/machine-learning/crash-course) · [Andrew Ng ML Specialization](https://www.coursera.org/specializations/machine-learning-introduction)
 - 논문: [A Few Useful Things to Know About ML](https://doi.org/10.1145/2347736.2347755)
 - 책: [ISLR](https://www.statlearning.com/) 5(재표본), 8(트리)장
+- 🇰🇷 책·강의: [혼자 공부하는 머신러닝+딥러닝 (개정판)](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=361140631) + [저자 강의](https://www.youtube.com/playlist?list=PLJN246lAkhQihHwcbrZp9uuwgxQen5HS-)
+- 🇰🇷 강의: [김성범 교수 — 핵심 머신러닝](https://www.youtube.com/playlist?list=PLpIPLT0Pf7IoTxTCi2MEQ94MZnHaxrP0j) · [Google 머신러닝 단기집중과정 (한국어)](https://developers.google.com/machine-learning/crash-course?hl=ko)
+- 🇰🇷 책: [파이썬 머신러닝 완벽 가이드 (개정2판)](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=292601583) — 캐글 예제로 부스팅·피처 엔지니어링

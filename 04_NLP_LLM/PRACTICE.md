@@ -2,6 +2,8 @@
 
 [필독 목록](READING_LIST.md)의 자료를 **읽고 → 해 보고 → 기억하는** 순서로 쓰는 문서. 읽는 요령은 [논문 읽기 워크북](../00_Foundations/10_paper-reading-workbook.md), 노트북 실행법은 [LABS.md](../LABS.md).
 
+> 🇰🇷 영어가 부담되면 [READING_LIST.md](READING_LIST.md) 맨 위의 **🇰🇷 한국어로 시작하기** 표와 [KOREAN_START.md](../KOREAN_START.md)부터 본다. 아래 논문 가이드의 **🇰🇷 한국어로 먼저** 줄에 한국어 해설을 달아 두었다.
+
 ## 이 폴더의 실습
 - [lab01_tokenizer_attention_from_scratch](labs/lab01_tokenizer_attention_from_scratch.ipynb) — BPE·어텐션 직접 구현
 - [lab02_embeddings_retrieval_rag](labs/lab02_embeddings_retrieval_rag.ipynb) — 검색·RAG·오류 분석
@@ -22,6 +24,7 @@
 [arXiv 1706.03762](https://arxiv.org/abs/1706.03762)
 
 - **이 논문이 답하는 질문:** 순환·합성곱 없이 어텐션만으로 시퀀스를 더 잘, 더 싸게 변환할 수 있는가.
+- **🇰🇷 한국어로 먼저:** [3Blue1Brown 한국어 어텐션](https://www.youtube.com/watch?v=_Z3rXeJahMs) · [김성범 교수 Transformer](https://www.youtube.com/watch?v=a_-YgMO0u0E) · [동빈나 리뷰와 코드](https://www.youtube.com/watch?v=AA621UofTUA)
 - **읽기 가이드:** 먼저 [Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/). 논문은 Figure 1(구조) → 3.2절(어텐션 식) → 3.5절(위치 인코딩) → 4절의 복잡도 표 → 결과 표 → 모델 변형 표(ablation) 순. **주장-증거 표 풀이:** (1) 품질: WMT14 영→독 28.4 BLEU, 영→불 41.8 BLEU — 결과 표. (2) 비용: 영→불 모델을 GPU 8개로 3.5일 — 결과 표의 학습 비용 열. (3) 구성요소의 필요성: 헤드 수·차원·위치 인코딩 방식을 바꾼 변형 표.
 - **실습:** Lab 01 전체. 그다음 [tiny GPT 학습](../12_Open_Models/labs/lab02_train_tiny_gpt_end_to_end.ipynb).
 
@@ -41,6 +44,7 @@
 [arXiv 1810.04805](https://arxiv.org/abs/1810.04805)
 
 - **이 논문이 답하는 질문:** 라벨 없는 텍스트로 양방향 문맥 표현을 사전학습해 여러 과제에 미세조정할 수 있는가.
+- **🇰🇷 한국어로 먼저:** [DSBA BERT 강의](https://www.youtube.com/watch?v=IwtexRHoWG0)
 - **읽기 가이드:** 입력 표현 그림 → 사전학습 과제 두 개(MLM, NSP) → 미세조정 그림 → ablation(양방향의 효과, NSP의 효과). GLUE 표에서는 비교 대상(GPT, ELMo)과 무엇이 다른지를 본다.
 - **실습:** Hugging Face의 `fill-mask` 파이프라인으로 가린 단어를 맞혀 보고, 같은 문장을 GPT류 모델(다음 토큰 예측)과 비교한다.
 
@@ -58,6 +62,7 @@
 [arXiv 2005.11401](https://arxiv.org/abs/2005.11401)
 
 - **이 논문이 답하는 질문:** 모델 가중치에 없는(또는 낡은) 지식을, 검색한 문서로 보완해 생성할 수 있는가.
+- **🇰🇷 한국어로 먼저:** [테디노트 RAG 동작 과정](https://www.youtube.com/watch?v=zybyszetEcE)
 - **읽기 가이드:** 구조 그림에서 retriever와 generator가 각각 무엇인지, 무엇이 함께 학습되는지 확인. 요즘의 RAG(학습 없이 프롬프트에 붙이기)와 무엇이 다른지 적는다.
 - **실습:** Lab 02 전체. 특히 5절(검색 오류와 생성 오류를 따로 채점).
 

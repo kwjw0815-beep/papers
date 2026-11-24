@@ -54,3 +54,5 @@
 
 ## 참고
 - [How to Read a Paper (Keshav, 2007)](https://doi.org/10.1145/1273445.1273458)
+- 🇰🇷 한국어 논문 리뷰 채널 — 원문을 읽기 전에 구조를 잡거나, 읽은 뒤 내 이해와 비교하는 용도: [PR12 딥러닝 논문읽기 모임](https://www.youtube.com/playlist?list=PL0oFI08O71gKjGhaWctTPvvM7_cVzsAtK) · [동빈나 꼼꼼한 딥러닝 논문 리뷰와 코드 실습](https://www.youtube.com/playlist?list=PLRx0vPvlEmdADpce8aoBhNnDaaHQN1Typ) · [DSBA 연구실 논문 리뷰 (예: ViT)](https://www.youtube.com/watch?v=0kgDve_vC1o) · [딥러닝논문읽기모임 (최신 논문, 예: DiT)](https://www.youtube.com/watch?v=B7_ht9TDtIE)
+- 🇰🇷 영어 논문을 한국어 도움을 받아 읽는 요령: [KOREAN_START.md](../KOREAN_START.md)의 4절

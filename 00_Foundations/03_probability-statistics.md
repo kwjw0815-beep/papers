@@ -54,3 +54,7 @@
 - 논문: [The ASA Statement on p-Values](https://doi.org/10.1080/00031305.2016.1154108) (짧음, 필독)
 - 책: [ISLR](https://www.statlearning.com/) 2~3장 · [Mathematics for ML](https://mml-book.github.io/) 6장
 - 강의: Harvard Stat 110 (Blitzstein)
+- 🇰🇷 영상: [공돌이의 수학정리노트 — 확률과 통계](https://www.youtube.com/playlist?list=PL5yujGYFVt0Cr2wyzeMfBKW_Pfktcdnjr) · [실패를 기도하는 이론: 귀무가설](https://www.youtube.com/watch?v=P7Y1Dg9U64g)
+- 🇰🇷 강의: [김성범 교수 — P-Value](https://www.youtube.com/watch?v=tpow70KGTYY) (ASA 성명을 읽기 전에)
+- 🇰🇷 웹책: [데이터 사이언스 스쿨](https://datascienceschool.net/intro.html) — 확률·통계를 파이썬 코드와 함께
+- 🇰🇷 책: [데이터 과학을 위한 통계 (2판)](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=269943212) · [통계 101×데이터 분석](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=303389945)

@@ -2,6 +2,8 @@
 
 [필독 목록](READING_LIST.md)의 자료를 **읽고 → 해 보고 → 기억하는** 순서로 쓰는 문서. 읽는 요령은 [논문 읽기 워크북](../00_Foundations/10_paper-reading-workbook.md), 노트북 실행법은 [LABS.md](../LABS.md).
 
+> 🇰🇷 영어가 부담되면 [READING_LIST.md](READING_LIST.md) 맨 위의 **🇰🇷 한국어로 시작하기** 표와 [KOREAN_START.md](../KOREAN_START.md)부터 본다. 아래 논문 가이드의 **🇰🇷 한국어로 먼저** 줄에 한국어 해설을 달아 두었다.
+
 ## 이 폴더의 실습
 - [lab01_ab_test_simulation](labs/lab01_ab_test_simulation.ipynb) — 검정력·peeking·CUPED·SRM
 - 관찰 데이터 인과추론은 노트북이 아직 없다. *[Causal Inference for the Brave and True](https://matheusfacure.github.io/python-causality-handbook/landing-page.html)* 의 성향점수·DiD 장을 코드와 함께 실행하는 것으로 대신한다.
@@ -20,6 +22,7 @@
 [DOI](https://doi.org/10.1007/s10618-008-0114-1)
 
 - **이 논문이 답하는 질문:** 온라인 실험을 올바르게 설계·실행·분석하려면 무엇을 알아야 하는가.
+- **🇰🇷 한국어로 먼저:** [A/B 테스트 책 1장 한국어 PDF](https://experimentguide.com/wp-content/uploads/2022/07/2022-07-04-Trustworthy-Online-Controlled-Experiments_Korean_Chapter1.pdf) · [방태모 발표 (데이터야놀자 2023)](https://www.youtube.com/watch?v=J4zjwJNYyPM)
 - **읽기 가이드:** 긴 논문이다. 용어 정의 → 표본 크기·검정력 → 한계 → 실행상의 교훈 순으로 **필요한 절만** 읽는다. 읽으면서 "우리 서비스라면"으로 바꿔 적는다.
 - **실습:** Lab 01의 1~2절, 직접 해보기 1(실험 기간)과 3(분석 단위).
 

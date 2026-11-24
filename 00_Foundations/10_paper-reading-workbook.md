@@ -34,6 +34,8 @@
 | 다 이해한 다음에 정리하려다 결국 안 쓴다 | 정리를 "결과물"로 생각한다 | 정리는 **읽는 도구**다. 1차 읽기 5분 뒤에 바로 쓴다 (훈련 5) |
 | 일주일 뒤에 기억이 나지 않는다 | 다시 읽기만 했다(인출하지 않았다) | 질문을 만들어 두고 답을 가린 채 말해 본다 (훈련 7) |
 
+영어가 가장 큰 걸림돌이라면 → [한국어로 시작하기](../KOREAN_START.md): 한국어 해설로 구조를 먼저 잡고, 원문은 초록·그림·표부터 읽는 방법과 한국어 6주 경로가 있다.
+
 ## 2. 전체 흐름과 시간 배분
 
 한 편을 "제대로" 읽는 데 드는 시간은 3~5시간이고, 한 번에 하지 않는다.
@@ -363,3 +365,5 @@
 | [Yannic Kilcher](https://www.youtube.com/@YannicKilcher) · [Umar Jamil](https://www.youtube.com/@umarjamilai) | 논문을 한 줄씩 읽어 가는 영상 / 논문을 코드로 구현하는 영상. 다른 사람이 어떻게 읽는지 관찰하기 |
 | [Hugging Face Papers](https://huggingface.co/papers) · [alphaXiv](https://www.alphaxiv.org/) | 요즘 읽히는 논문과 토론 |
 | [Zotero](https://www.zotero.org/) · [Semantic Scholar](https://www.semanticscholar.org/) · [Connected Papers](https://www.connectedpapers.com/) | 논문 관리 / 인용 관계 찾기 / 관련 논문 지도 |
+| 🇰🇷 [PR12 딥러닝 논문읽기 모임](https://www.youtube.com/playlist?list=PL0oFI08O71gKjGhaWctTPvvM7_cVzsAtK) · [동빈나 꼼꼼한 딥러닝 논문 리뷰와 코드 실습](https://www.youtube.com/playlist?list=PLRx0vPvlEmdADpce8aoBhNnDaaHQN1Typ) · [딥러닝논문읽기모임](https://www.youtube.com/watch?v=B7_ht9TDtIE) | 한국어 논문 리뷰. 내가 쓴 노트와 비교하는 용도로 (먼저 보면 연습 효과가 줄어든다) |
+| 🇰🇷 [동빈나 ResNet 리뷰](https://www.youtube.com/watch?v=671BsKl8d0E) · [PR-170 ResNet](https://www.youtube.com/watch?v=7fSgqlC7Wdo) | 이 워크북의 교재 논문을 한국어로 설명한 영상 |

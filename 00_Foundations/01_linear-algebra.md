@@ -39,3 +39,7 @@ ML에서 **데이터는 전부 벡터와 행렬**이다. 사용자 한 명 = 피
 - 영상: [3Blue1Brown — Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) (먼저 이것부터)
 - 강의: [MIT 18.06 (Strang)](https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/)
 - 책: [Mathematics for Machine Learning](https://mml-book.github.io/) 2~4장
+- 🇰🇷 영상: [3Blue1Brown 한국어 — 선형대수학의 본질](https://www.youtube.com/playlist?list=PLkoaXOTFHiqhVDo0nWybNmihCP_4BjOFR) (위 영어 시리즈의 공식 한국어판)
+- 🇰🇷 영상·블로그: [공돌이의 수학정리노트](https://angeloyeo.github.io/) — [고윳값·고유벡터의 기하학적 의미](https://www.youtube.com/watch?v=7dmV3p3Iy90) · [SVD의 기하학적 의미](https://www.youtube.com/watch?v=cq5qlYtnLoY)
+- 🇰🇷 강의: [부스트코스 — 인공지능을 위한 선형대수](https://www.boostcourse.org/ai251) · [혁펜하임 "보이는" 선형대수학](https://www.youtube.com/playlist?list=PL_iJu012NOxdZDxoGsYidMf2_bERIQaP0) · [이상화 교수 선형대수 (한양대)](https://www.youtube.com/playlist?list=PLSN_PltQeOyjDGSghAf92VhdMBeaLZWR3)
+- 🇰🇷 책: [개발자를 위한 실전 선형대수학](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=325100604) (한빛미디어, 2023) — 코드로 배우는 선형대수

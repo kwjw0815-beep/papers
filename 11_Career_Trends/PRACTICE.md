@@ -2,6 +2,8 @@
 
 [필독 목록](READING_LIST.md)의 자료를 **읽고 → 해 보고 → 기억하는** 순서로 쓰는 문서. 읽는 요령은 [논문 읽기 워크북](../00_Foundations/10_paper-reading-workbook.md), 노트북 실행법은 [LABS.md](../LABS.md).
 
+> 🇰🇷 영어가 부담되면 [READING_LIST.md](READING_LIST.md) 맨 위의 **🇰🇷 한국어로 시작하기** 표와 [KOREAN_START.md](../KOREAN_START.md)부터 본다. 아래 논문 가이드의 **🇰🇷 한국어로 먼저** 줄에 한국어 해설을 달아 두었다.
+
 ## 이 폴더의 실습
 - 이 폴더는 논문보다 **꾸준히 따라갈 소스**가 중심이다. 실습 대신 루틴을 만든다.
 

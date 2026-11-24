@@ -51,3 +51,7 @@
 - 책(무료): [Causal Inference for the Brave and True](https://matheusfacure.github.io/python-causality-handbook/landing-page.html) · [The Effect](https://theeffectbook.net/) · [Causal Inference: The Mixtape](https://mixtape.scunning.com/)
 - 책: [Trustworthy Online Controlled Experiments](https://experimentguide.com/)
 - 강의: [Brady Neal — Introduction to Causal Inference](https://www.bradyneal.com/causal-inference-course)
+- 🇰🇷 웹책: [Python으로 하는 인과추론](https://causalinferencelab.github.io/Causal-Inference-with-Python/) — 위 Brave and True의 한국어판 (무료)
+- 🇰🇷 책: [실무로 통하는 인과추론 with 파이썬](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=335177841) + [해설 영상](https://www.youtube.com/playlist?list=PLKKkeayRo4PWuwIL0_C7n_QQQ_at6CpoE)
+- 🇰🇷 책: [A/B 테스트 — 신뢰도 높은 온라인 통제 실험](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=296254070) — 위 Kohavi 책의 한국어판 · [1장 한국어 PDF](https://experimentguide.com/wp-content/uploads/2022/07/2022-07-04-Trustworthy-Online-Controlled-Experiments_Korean_Chapter1.pdf)
+- 🇰🇷 영상: [인과추론의 데이터과학 — 인과추론 특강](https://www.youtube.com/playlist?list=PLKKkeayRo4PXdPDRYxM31o8yXyTR235ve) · [토스 데이터 분석가가 하는 진짜 A/B테스트](https://www.youtube.com/watch?v=BljJ1jZ7e3U)

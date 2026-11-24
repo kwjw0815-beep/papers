@@ -58,3 +58,12 @@ $$\text{Attention}(Q,K,V)=\text{softmax}\!\left(\frac{QK^\top}{\sqrt{d_k}}\right
 3. [Attention Is All You Need](https://arxiv.org/abs/1706.03762) (논문 — 3절 중심으로)
 4. [Karpathy — Let's build GPT](https://www.youtube.com/watch?v=kCc8FmEb1nY) (직접 구현)
 5. [The Annotated Transformer](https://nlp.seas.harvard.edu/annotated-transformer/) (논문+코드 대조)
+
+### 🇰🇷 한국어로 먼저 보기
+1. [3Blue1Brown 한국어 — 트랜스포머 (DL5)](https://www.youtube.com/watch?v=g38aoGttLhI) → [어텐션 (DL6)](https://www.youtube.com/watch?v=_Z3rXeJahMs) (위 2번 영상의 공식 한국어판)
+2. [김성범 교수 — Transformer](https://www.youtube.com/watch?v=a_-YgMO0u0E) (구조를 강의로)
+3. [동빈나 — Attention Is All You Need 리뷰와 코드 실습](https://www.youtube.com/watch?v=AA621UofTUA) (논문을 한국어로 한 줄씩)
+4. [밑바닥부터 만들면서 배우는 LLM](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=372272431) + [역자 강의](https://www.youtube.com/playlist?list=PLJN246lAkhQhgakhcxz-5GwG_NYuJgSv1) (직접 구현, 위 4~5번에 해당)
+5. [딥 러닝을 이용한 자연어 처리 입문](https://wikidocs.net/book/2155) ‡ (무료 웹책, RAG·에이전트까지)
+
+‡ 이 환경에서는 직접 접속이 막혀 검색 결과로 제목과 주소를 확인한 링크.

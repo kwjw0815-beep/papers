@@ -2,6 +2,8 @@
 
 [필독 목록](READING_LIST.md)의 자료를 **읽고 → 해 보고 → 기억하는** 순서로 쓰는 문서. 읽는 요령은 [논문 읽기 워크북](../00_Foundations/10_paper-reading-workbook.md), 노트북 실행법은 [LABS.md](../LABS.md).
 
+> 🇰🇷 영어가 부담되면 [READING_LIST.md](READING_LIST.md) 맨 위의 **🇰🇷 한국어로 시작하기** 표와 [KOREAN_START.md](../KOREAN_START.md)부터 본다. 아래 논문 가이드의 **🇰🇷 한국어로 먼저** 줄에 한국어 해설을 달아 두었다.
+
 ## 이 폴더의 실습
 - 전용 노트북은 아직 없다. 아래 과제로 대신한다.
   - **SQL:** [Mode SQL Tutorial](https://mode.com/sql-tutorial/)의 윈도 함수 단원까지 풀고, "사용자별 첫 구매일과 7일 내 재구매 여부"를 쿼리 하나로 작성한다. [DuckDB](https://duckdb.org/docs/)를 쓰면 pandas DataFrame에 바로 SQL을 실행할 수 있다.
@@ -38,6 +40,7 @@
 [문서](https://developers.google.com/machine-learning/guides/rules-of-ml)
 
 - **이 논문이 답하는 질문:** ML 제품을 만들 때 어떤 순서로 무엇을 해야 하는가.
+- **🇰🇷 한국어로 먼저:** [한국어판](https://developers.google.com/machine-learning/guides/rules-of-ml?hl=ko)
 - **읽기 가이드:** 단계별(ML 이전 → 첫 파이프라인 → 피처 엔지니어링 → 성장 둔화 이후)로 묶여 있다. 규칙 번호와 한 줄 요약만 표로 만들고, 지금 내 단계에 해당하는 규칙 5개를 고른다.
 - **실습:** 실습 노트북 하나를 골라 "규칙 4: 첫 모델은 단순하게, 인프라를 제대로"의 관점에서 무엇이 인프라이고 무엇이 모델인지 나눠 본다.
 

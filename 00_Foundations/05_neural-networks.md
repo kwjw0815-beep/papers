@@ -54,3 +54,6 @@ for x, y in dataloader:          # 미니배치
 - 영상: [3Blue1Brown — But what is a neural network?](https://www.youtube.com/watch?v=aircAruvnKk) → [Karpathy — micrograd](https://www.youtube.com/watch?v=VMj-3S1tku0)
 - 책: [Dive into Deep Learning](https://d2l.ai/) · [Understanding Deep Learning](https://udlbook.github.io/udlbook/) · [Deep Learning (Goodfellow)](https://www.deeplearningbook.org/)
 - 강의: [fast.ai](https://course.fast.ai/) · [CS231n](https://cs231n.stanford.edu/) 강의노트
+- 🇰🇷 책: [밑바닥부터 시작하는 딥러닝 1 (리마스터판)](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=356399264) — 넘파이로 신경망·역전파를 직접 구현 · [Easy! 딥러닝 (혁펜하임)](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=352995281)
+- 🇰🇷 웹: [파이토치 한국어 튜토리얼](https://tutorials.pytorch.kr/) · [Dive into Deep Learning 한국어판](https://ko.d2l.ai/) (원서보다 이전 판)
+- 🇰🇷 강의: [모두를 위한 딥러닝 시즌 1](https://www.youtube.com/playlist?list=PLlMkM4tgfjnLSOjrEJN31gZATbcj_MpUm) · [시즌 2](https://deeplearningzerotoall.github.io/season2/)

@@ -26,7 +26,7 @@
 |---|---|---|---|
 | **A. 가중치 공개 (open-weight)** | 가중치 + 추론 코드 + 보고서. 학습 데이터와 전체 학습 코드는 비공개 | 추론, 미세조정, 내부 분석(해석가능성) | Llama, Gemma, Qwen, DeepSeek, gpt-oss, Phi, Mistral, K-EXAONE, A.X, Solar Open, Kanana, HyperCLOVA X SEED |
 | **B. 대부분 공개** | A + 학습 코드·설정 + 데이터 구성 정보(공개 데이터 위주) + 일부 체크포인트 | A + 학습 절차 읽기, 부분 재현 | SmolLM2, SmolLM3, OpenCLIP |
-| **C. 완전 공개 (fully open)** | 데이터(또는 재현 가능한 파이프라인) + 코드 + 가중치 + 중간 체크포인트 + 로그 | B + 학습 과정 관찰, 데이터→행동 추적, 처음부터 재학습 | Pythia, OLMo 2, Olmo 3, Apertus, LLM360(Amber 등), Marin, nanoGPT·nanochat으로 직접 학습한 모델 |
+| **C. 완전 공개 (fully open)** | 데이터(또는 재현 가능한 파이프라인) + 코드 + 가중치 + 중간 체크포인트 + 로그 | B + 학습 과정 관찰, 데이터→행동 추적, 처음부터 재학습 | Pythia, OLMo 2, Olmo 3, Apertus, KORMo(한국어·영어), LLM360(Amber 등), Marin, nanoGPT·nanochat으로 직접 학습한 모델 |
 
 경계는 칼로 자르듯 나뉘지 않는다. 같은 B 수준이라도 무엇이 빠졌는지는 모델마다 다르다. 그래서 **수준 이름보다 아래 체크리스트의 답**이 중요하다.
 
@@ -96,6 +96,7 @@ Class I이 이 폴더에서 말하는 "완전 공개"에 가장 가깝다.
 | 모델 | 표시된 라이선스 | 수준 |
 |---|---|---|
 | Olmo 3 (7B Instruct), OLMo 2 (1B) | Apache-2.0 | C |
+| KORMo-10B (한국어·영어) | Apache-2.0 | C |
 | Pythia-70m | Apache-2.0 | C |
 | Apertus v1.5 8B | Apache-2.0 (받을 때 약관 동의 절차 있음) | C |
 | nanochat-d32 (예시 가중치) | MIT | C |

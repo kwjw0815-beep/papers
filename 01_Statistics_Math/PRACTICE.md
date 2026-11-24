@@ -2,6 +2,8 @@
 
 [필독 목록](READING_LIST.md)의 자료를 **읽고 → 해 보고 → 기억하는** 순서로 쓰는 문서. 읽는 요령은 [논문 읽기 워크북](../00_Foundations/10_paper-reading-workbook.md), 노트북 실행법은 [LABS.md](../LABS.md).
 
+> 🇰🇷 영어가 부담되면 [READING_LIST.md](READING_LIST.md) 맨 위의 **🇰🇷 한국어로 시작하기** 표와 [KOREAN_START.md](../KOREAN_START.md)부터 본다. 아래 논문 가이드의 **🇰🇷 한국어로 먼저** 줄에 한국어 해설을 달아 두었다.
+
 ## 이 폴더의 실습
 - [lab01_sampling_bootstrap_pvalues](labs/lab01_sampling_bootstrap_pvalues.ipynb) — 표준오차·신뢰구간·부트스트랩·p-value·FDR·Lasso
 
@@ -19,6 +21,7 @@
 [DOI](https://doi.org/10.1080/00031305.2016.1154108)
 
 - **이 논문이 답하는 질문:** p-value는 무엇을 말해 주고 무엇을 말해 주지 않는가.
+- **🇰🇷 한국어로 먼저:** [김성범 교수 P-Value 강의](https://www.youtube.com/watch?v=tpow70KGTYY) · [공돌이: 귀무가설](https://www.youtube.com/watch?v=P7Y1Dg9U64g)
 - **읽기 가이드:** 6개 원칙이 전부다. 원칙마다 "이 원칙을 어긴 문장"을 하나씩 직접 만들어 본다. 논문·기사에서 그런 문장을 찾으면 더 좋다.
 - **실습:** Lab 01의 4~5절(귀무가설 아래 p-value의 분포, 유의성과 효과 크기).
 

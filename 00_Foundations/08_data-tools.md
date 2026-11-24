@@ -34,3 +34,8 @@
 - Python 분석: [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) · [Kaggle Learn](https://www.kaggle.com/learn)
 - 셸·Git: [The Missing Semester (MIT)](https://missing.csail.mit.edu/)
 - 데이터 정리 원칙: [Tidy Data (Wickham, 2014)](https://doi.org/10.18637/jss.v059.i10)
+- 🇰🇷 Python: [점프 투 파이썬](https://wikidocs.net/book/1) ‡ · [파이썬 라이브러리를 활용한 데이터 분석 (3판)](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=315354750)
+- 🇰🇷 SQL: [생활코딩 DATABASE2 - MySQL](https://www.youtube.com/playlist?list=PLuHgQVnccGMCgrP_9HL3dAcvdt8qOZxjW) · [혼자 공부하는 SQL](https://www.youtube.com/playlist?list=PLVsNizTWUw7GCfy5RH27cQL5MeKYnl8Pm) · [SQL로 시작하는 데이터 분석](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=298955770)
+- 🇰🇷 Git·웹 기초: [생활코딩](https://opentutorials.org/course/1) · PyTorch: [파이토치 한국어 튜토리얼](https://tutorials.pytorch.kr/)
+
+‡ 이 환경에서는 직접 접속이 막혀 검색 결과로 제목과 주소를 확인한 링크.

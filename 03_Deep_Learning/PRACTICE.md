@@ -2,6 +2,8 @@
 
 [필독 목록](READING_LIST.md)의 자료를 **읽고 → 해 보고 → 기억하는** 순서로 쓰는 문서. 읽는 요령은 [논문 읽기 워크북](../00_Foundations/10_paper-reading-workbook.md), 노트북 실행법은 [LABS.md](../LABS.md).
 
+> 🇰🇷 영어가 부담되면 [READING_LIST.md](READING_LIST.md) 맨 위의 **🇰🇷 한국어로 시작하기** 표와 [KOREAN_START.md](../KOREAN_START.md)부터 본다. 아래 논문 가이드의 **🇰🇷 한국어로 먼저** 줄에 한국어 해설을 달아 두었다.
+
 ## 이 폴더의 실습
 - [lab01_backprop_from_scratch](labs/lab01_backprop_from_scratch.ipynb) — 역전파 직접 구현
 - [lab02_training_dynamics](labs/lab02_training_dynamics.ipynb) — Adam·학습률·잔차 연결·드롭아웃
@@ -21,6 +23,7 @@
 [arXiv 1512.03385](https://arxiv.org/abs/1512.03385)
 
 - **이 논문이 답하는 질문:** 층을 깊게 쌓으면 왜 학습 오차부터 나빠지고, 어떻게 해결하는가.
+- **🇰🇷 한국어로 먼저:** [동빈나 리뷰](https://www.youtube.com/watch?v=671BsKl8d0E) · [PR-170](https://www.youtube.com/watch?v=7fSgqlC7Wdo) · [혁펜하임 skip-connection](https://www.youtube.com/watch?v=Fypk0ec32BU)
 - **읽기 가이드:** [워크북](../00_Foundations/10_paper-reading-workbook.md)이 이 논문으로 훈련 1~5를 진행한다. Figure 1 → Figure 2 → Table 2 → Figure 4 순서.
 - **실습:** Lab 02의 3절. 끝낸 뒤 [풀이 예시 노트](2026-11-16_resnet-deep-residual-learning/summary.md)와 내 노트를 비교.
 
@@ -38,6 +41,7 @@
 [arXiv 1412.6980](https://arxiv.org/abs/1412.6980)
 
 - **이 논문이 답하는 질문:** 기울기의 크기가 파라미터마다·시점마다 다를 때 학습률을 어떻게 자동으로 맞출 것인가.
+- **🇰🇷 한국어로 먼저:** [혁펜하임 Adam 강의](https://www.youtube.com/watch?v=wVBuPlBBbAE)
 - **읽기 가이드:** Algorithm 1 상자를 종이에 옮겨 적고 기호 사전을 만든다(m, v, β1, β2, ε). 그다음 bias correction을 설명하는 절만 읽는다. 수렴 증명은 건너뛴다(이후 반례가 지적됨: *On the Convergence of Adam and Beyond*).
 - **실습:** Lab 02의 1절(논문의 다섯 줄을 구현해 PyTorch와 대조)과 2절(학습률 민감도).
 

@@ -2,6 +2,8 @@
 
 [필독 목록](READING_LIST.md)의 자료를 **읽고 → 해 보고 → 기억하는** 순서로 쓰는 문서. 읽는 요령은 [논문 읽기 워크북](../00_Foundations/10_paper-reading-workbook.md), 노트북 실행법은 [LABS.md](../LABS.md).
 
+> 🇰🇷 영어가 부담되면 [READING_LIST.md](READING_LIST.md) 맨 위의 **🇰🇷 한국어로 시작하기** 표와 [KOREAN_START.md](../KOREAN_START.md)부터 본다. 아래 논문 가이드의 **🇰🇷 한국어로 먼저** 줄에 한국어 해설을 달아 두었다.
+
 ## 이 폴더의 실습
 - [lab01_inspect_open_model](labs/lab01_inspect_open_model.ipynb) — 공개 가중치 해부
 - [lab02_train_tiny_gpt_end_to_end](labs/lab02_train_tiny_gpt_end_to_end.ipynb) — 직접 학습부터 모델 카드까지
@@ -49,6 +51,28 @@
 
 1. 사전학습: 넓은 데이터 → 중간학습 → 긴 문맥 확장. 후처리: SFT → DPO → RLVR.
 2. fully open은 학습 데이터·코드·가중치(와 체크포인트)를 모두 공개, open-weight는 가중치 중심.
+</details>
+
+### KORMo (한국어 완전 공개 모델)
+[arXiv 2510.09426](https://arxiv.org/abs/2510.09426) · [모델 카드](https://huggingface.co/KORMo-Team/KORMo-10B-sft) · [학습·추론 코드 (MLP-Lab/KORMo-tutorial)](https://github.com/MLP-Lab/KORMo-tutorial)
+
+- **이 자료가 답하는 질문:** 영어권 밖에서, 대학 연구실 규모로, 데이터·코드·체크포인트를 모두 공개하는 LLM을 처음부터 만들 수 있는가. 한국어 데이터가 부족하면 어떻게 하는가.
+- **🇰🇷 한국어로 먼저:** [KORMo 개발일지 세미나 (AIF)](https://www.youtube.com/watch?v=yvLlNHFcT-Y) · [한국어 소개 기사 (오픈소스 포털)](https://www.oss.kr/pages/11/357) · 모델 카드의 한국어 소개 문단과, 저장소에 있다고 모델 카드가 링크한 한국어 요약 슬라이드
+- **읽기 가이드:** 모델 카드 → 한국어 요약 → 기술 보고서의 데이터 절 순서. [Olmo 3](https://arxiv.org/abs/2512.13961) 보고서와 나란히 놓고 "무엇을 공개했나 / 데이터를 어떻게 모았나 / 어떻게 평가했나"를 표로 비교한다. 모델 카드의 벤치마크 표는 영어 평균과 한국어 평균을 따로 보고, 같은 표의 비교 모델(Kanana 1.5 8B, Qwen3 8B 등) 대비 어디가 강하고 약한지 적는다.
+- **실습:** (1) [01_openness-levels.md](01_openness-levels.md)의 체크리스트 10문항을 KORMo에 대해 채우고, 가중치만 공개된 한국 모델 하나(예: [K-EXAONE](https://arxiv.org/abs/2601.01739) 또는 [Kanana-2](https://tech.kakao.com/posts/807))와 나란히 비교한다. (2) 모델 카드가 안내하는 Colab 튜토리얼(QLoRA 지시 학습)을 무료 GPU에서 실행해 [공부 방법](02_study-method.md) 6단계를 해 본다.
+
+**기억 점검**
+1. KORMo의 크기, 지원 언어, 라이선스는?
+2. "완전 공개"라고 부르는 근거는 무엇인가(무엇이 공개됐나)?
+3. 한국어 데이터 부족을 어떻게 메웠나? 그 방법에서 생길 수 있는 위험은?
+4. 모델 카드 벤치마크 표에서 KORMo의 영어 평균·한국어 평균은? 같은 표의 Qwen3-8B와 비교하면?
+
+<details><summary>답 확인</summary>
+
+1. 10.8B 파라미터, 한국어·영어, Apache 2.0 (모델 카드).
+2. 모델 카드에 따르면 모델, 학습 코드, 학습 데이터가 모두 공개되어 누구나 재현·확장할 수 있고, 중간 체크포인트와 튜토리얼도 공개했다.
+3. 합성 데이터를 많이 썼다. 오픈소스 포털 기사에 따르면 한국어 데이터의 약 68.74%를 합성 데이터로 만들어 사전학습에 썼다. 위험(일반적인 우려): 데이터를 생성한 모델의 오류·편향이 그대로 학습되고, 실제 한국어 사용과 분포가 달라질 수 있다.
+4. 영어 평균 63.45, 한국어 평균 58.15. Qwen3-8B는 각각 67.90, 63.35로 둘 다 더 높다. 단, 이것은 모델 카드에 연구팀이 보고한 수치이고, 평가 조건(프롬프트, few-shot 수)은 보고서에서 확인해야 한다.
 </details>
 
 ### nanoGPT · nanochat

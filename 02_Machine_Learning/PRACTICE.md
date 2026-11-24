@@ -2,6 +2,8 @@
 
 [필독 목록](READING_LIST.md)의 자료를 **읽고 → 해 보고 → 기억하는** 순서로 쓰는 문서. 읽는 요령은 [논문 읽기 워크북](../00_Foundations/10_paper-reading-workbook.md), 노트북 실행법은 [LABS.md](../LABS.md).
 
+> 🇰🇷 영어가 부담되면 [READING_LIST.md](READING_LIST.md) 맨 위의 **🇰🇷 한국어로 시작하기** 표와 [KOREAN_START.md](../KOREAN_START.md)부터 본다. 아래 논문 가이드의 **🇰🇷 한국어로 먼저** 줄에 한국어 해설을 달아 두었다.
+
 ## 이 폴더의 실습
 - [lab01_validation_leakage_metrics](labs/lab01_validation_leakage_metrics.ipynb) — 과적합·교차검증·누수·불균형 지표
 - [lab02_boosting_from_scratch_shap](labs/lab02_boosting_from_scratch_shap.ipynb) — 부스팅 직접 구현·XGBoost·SHAP
@@ -39,6 +41,7 @@
 [arXiv 1603.02754](https://arxiv.org/abs/1603.02754)
 
 - **이 논문이 답하는 질문:** 트리 부스팅을 어떻게 정규화하고, 수십억 건까지 빠르게 돌릴 것인가.
+- **🇰🇷 한국어로 먼저:** [DSBA XGBoost 강의](https://www.youtube.com/watch?v=VHky3d_qZ_E) · [김성범 교수 Boosting](https://www.youtube.com/watch?v=GciPwN2cde4)
 - **읽기 가이드:** 초록에 정확도 숫자가 없다 → **시스템 논문**이다. 2절(정규화된 목적함수 → 2차 근사 → 분할 이득 식)을 [워크북](../00_Foundations/10_paper-reading-workbook.md)의 수식 읽기 4단계로 읽고, 3절(근사 분할·희소성 처리)과 4절(시스템)은 "무엇을 빠르게 하려는가"만 잡는다. 실험 절의 그림은 y축이 시간인지 정확도인지부터 확인.
 - **실습:** Lab 02의 3절(이득 식을 손으로 계산)과 4절(조기 종료).
 
@@ -58,6 +61,7 @@
 [arXiv 1705.07874](https://arxiv.org/abs/1705.07874)
 
 - **이 논문이 답하는 질문:** 여러 설명 기법을 하나의 틀로 묶을 수 있는가, 그 틀에서 '유일하게 타당한' 기여도는 무엇인가.
+- **🇰🇷 한국어로 먼저:** [김성범 교수 Shapley Value](https://www.youtube.com/watch?v=f2XqxOny3NA)
 - **읽기 가이드:** "가법적 특성 기여(additive feature attribution)" 정의 → 세 성질(local accuracy, missingness, consistency) → 그것을 만족하는 유일한 해가 Shapley 값이라는 흐름만 따라간다. 근사 알고리즘 세부는 건너뛴다.
 - **실습:** Lab 02의 5절(가법성 확인, 의존성 그림)과 직접 해보기 3(상관된 특성).
 

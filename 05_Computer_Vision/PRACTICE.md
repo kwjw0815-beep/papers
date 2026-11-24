@@ -2,6 +2,8 @@
 
 [필독 목록](READING_LIST.md)의 자료를 **읽고 → 해 보고 → 기억하는** 순서로 쓰는 문서. 읽는 요령은 [논문 읽기 워크북](../00_Foundations/10_paper-reading-workbook.md), 노트북 실행법은 [LABS.md](../LABS.md).
 
+> 🇰🇷 영어가 부담되면 [READING_LIST.md](READING_LIST.md) 맨 위의 **🇰🇷 한국어로 시작하기** 표와 [KOREAN_START.md](../KOREAN_START.md)부터 본다. 아래 논문 가이드의 **🇰🇷 한국어로 먼저** 줄에 한국어 해설을 달아 두었다.
+
 ## 이 폴더의 실습
 - [lab01_cnn_and_toy_diffusion](labs/lab01_cnn_and_toy_diffusion.ipynb) — 합성곱·불변성·2차원 디퓨전
 
@@ -19,6 +21,7 @@
 [arXiv 2103.00020](https://arxiv.org/abs/2103.00020)
 
 - **이 논문이 답하는 질문:** 이미지-텍스트 쌍만으로, 라벨을 따로 붙이지 않고 범용 시각 표현을 배울 수 있는가.
+- **🇰🇷 한국어로 먼저:** [논문익는마을 리뷰](https://www.youtube.com/watch?v=HkkaKI6NN-8)
 - **읽기 가이드:** 방법 요약 그림(대조 학습 → zero-shot 분류기 만들기) → zero-shot 결과 그림 → 분포 변화에 대한 강건성 그림 → 한계 절. 의사코드 상자가 있으면 한 줄씩 읽는다.
 - **실습:** Hugging Face의 CLIP 모델로 사진 몇 장을 직접 만든 문장 라벨("a photo of a …")로 분류해 본다. 문장을 바꾸면 결과가 어떻게 바뀌나? 멀티모달 편향 실험([PAIRS](https://arxiv.org/abs/2402.05779))의 출발점이 된다.
 
@@ -36,6 +39,7 @@
 [arXiv 1512.03385](https://arxiv.org/abs/1512.03385)
 
 - **이 논문이 답하는 질문:** (03_Deep_Learning과 같은 논문)
+- **🇰🇷 한국어로 먼저:** [동빈나 리뷰](https://www.youtube.com/watch?v=671BsKl8d0E)
 - **읽기 가이드:** [03_Deep_Learning 실습 가이드](../03_Deep_Learning/PRACTICE.md)와 [풀이 예시 노트](../03_Deep_Learning/2026-11-16_resnet-deep-residual-learning/summary.md) 참고.
 - **실습:** Lab 01의 A부에서 global average pooling의 역할을 확인하고 논문의 구조 표에서 찾는다.
 
