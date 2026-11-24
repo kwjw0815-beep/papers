@@ -42,6 +42,8 @@ Questions to ask myself when reading papers.. (Reference : Guide to Reading Acad
 | [09_Data_Engineering_MLOps](09_Data_Engineering_MLOps) | 데이터 파이프라인, MLOps |
 | [10_Analytics_Business](10_Analytics_Business) | 지표, 프로덕트 분석, 시각화 |
 | [11_Career_Trends](11_Career_Trends) | 커리어, 업계 동향 |
+| [12_Open_Models](12_Open_Models) | 학습 코드·데이터·가중치가 공개된 모델을 직접 돌려 보며 공부 |
+| [13_Sports_Analytics](13_Sports_Analytics) | 스포츠 데이터 분석, 선수 추적 데이터, 선수 평가·성과 예측 |
 
 각 분야 폴더에는 **`READING_LIST.md`**(데이터사이언티스트 필독 논문·강의·영상·책, 난이도 ①입문→②핵심→③심화 순)가 있고,
 각 자료의 `선수 지식` 열은 [`00_Foundations/`](00_Foundations)의 해당 문서로 연결됩니다.
