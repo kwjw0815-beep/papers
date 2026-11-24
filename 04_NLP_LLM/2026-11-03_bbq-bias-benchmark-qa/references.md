@@ -11,7 +11,7 @@
 | ⭐⭐ | 논문 | VLBiasBench: A Comprehensive Benchmark for Evaluating Bias in Large Vision-Language Model | 2024 | [arXiv 2406.14194](https://arxiv.org/abs/2406.14194) | BBQ와 같은 9범주 + 교차 2범주를 SDXL 생성 이미지 46,848장으로 구성. 개방형/폐쇄형 질문 모두 포함 |
 | ⭐⭐ | 논문 | Language (Technology) is Power: A Critical Survey of "Bias" in NLP | Blodgett et al., ACL 2020 | [arXiv 2005.14050](https://arxiv.org/abs/2005.14050) | BBQ가 편향 정의의 출발점으로 삼은 서베이. "bias를 측정한다"는 말이 얼마나 모호한지 이해하기 |
 | ⭐ | 논문 | On Measures of Biases and Harms in NLP | Dev et al., 2021 | [arXiv 2108.03362](https://arxiv.org/abs/2108.03362) | BBQ 본문에 "What do bias measures measure?"(구 제목)로 인용됨. 편향 지표와 실제 해(harm)의 연결 |
-| ⭐ | 논문 | Visual Instruction Tuning (LLaVA) | Liu et al., NeurIPS 2023 | [arXiv 2304.08485](https://arxiv.org/abs/2304.08485) | 멀티모달 편향을 이해하기 전 **VLM이 어떻게 생겼는지** 기초 |
+| ⭐ | 논문 | Visual Instruction Tuning (LLaVA) | Liu et al., NeurIPS 2023 | [arXiv 2304.08485](https://arxiv.org/abs/2304.08485) | 멀티모달 편향을 이해하기 전 **VLM이 어떻게 생겼는지** 기초 → [정리](../2026-11-24_llava-visual-instruction-tuning) |
 | ⭐ | 데이터 | BBQ GitHub | NYU MLL | [github.com/nyu-mll/BBQ](https://github.com/nyu-mll/BBQ) | 데이터·템플릿·분석 코드 (CC-BY 4.0) |
 
 ## 학습 순서 제안

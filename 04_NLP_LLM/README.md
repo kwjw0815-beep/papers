@@ -6,3 +6,4 @@
 | 날짜 | 주제 | 자료 유형 | 폴더 |
 |---|---|---|---|
 | 2026-11-03 | BBQ: A Hand-Built Bias Benchmark for QA (편향 평가 벤치마크) | 논문 | [2026-11-03_bbq-bias-benchmark-qa](2026-11-03_bbq-bias-benchmark-qa) |
+| 2026-11-24 | Visual Instruction Tuning (LLaVA): 비전 인코더와 LLM을 잇는 멀티모달 지시 튜닝 | 논문 | [2026-11-24_llava-visual-instruction-tuning](2026-11-24_llava-visual-instruction-tuning) |
