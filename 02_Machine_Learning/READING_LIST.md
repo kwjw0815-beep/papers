@@ -2,9 +2,27 @@
 
 실무 정형 데이터(tabular)의 주력 무기. 트리·부스팅과 모델 해석이 중심.
 
-> **읽는 법:** ①→②→③ 순서. **★** 는 먼저 읽을 코어 자료, **🆕** 는 2025~2026년에 나온 자료다.  
+> **읽는 법:** 영어가 부담되면 바로 아래 **🇰🇷 한국어로 시작하기**부터 본다. 영어 자료는 ①→②→③ 순서. **★** 는 먼저 볼 코어 자료, **🆕** 는 2025~2026년에 나온 자료다.  
 > `선수 지식`의 문서를 먼저 훑고 오면 수월하다. 읽고 정리한 자료는 `상태`를 ✅로 바꾸고 노트 폴더를 연결한다.  
 > 읽기 가이드·실습 과제·기억 점검 퀴즈는 [PRACTICE.md](PRACTICE.md), 실습 노트북은 [LABS.md](../LABS.md).
+
+## 🇰🇷 한국어로 시작하기
+
+영어 자료가 막막하면 여기서 시작한다. **★** 표시가 한국어로 먼저 볼 자료다. 번역서는 아래 영어 표의 원서와 내용이 같고, 영어 표에서 한국어판이나 한국어 해설이 있는 자료에는 🇰🇷 링크를 달아 두었다.
+
+| 유형 | 자료 | 왜 보나 |
+|---|---|---|
+| 책·강의 | ★ 🆕 **[혼자 공부하는 머신러닝+딥러닝 (개정판)](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=361140631)**<br>박해선 · 한빛미디어 · 2025 · [저자 강의](https://www.youtube.com/playlist?list=PLJN246lAkhQihHwcbrZp9uuwgxQen5HS-) · [코드](https://github.com/rickiepark/hg-mldl2) | 가장 쉬운 한국어 입문서. 저자 직강 영상이 책 전체를 따라간다 |
+| 강의 | ★ **[핵심 머신러닝 (재생목록)](https://www.youtube.com/playlist?list=PLpIPLT0Pf7IoTxTCi2MEQ94MZnHaxrP0j)**<br>김성범 교수 (고려대 산업경영공학부) | 회귀·트리·부스팅·SHAP·Transformer까지 개념을 깊이 있게 설명하는 한국어 강의 |
+| 강의 | **[머신러닝 단기집중과정 (한국어)](https://developers.google.com/machine-learning/crash-course?hl=ko)**<br>Google | 아래 영어 목록 Machine Learning Crash Course의 한국어판 |
+| 책 | 🆕 **[핸즈온 머신러닝 with 사이킷런, 파이토치](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=403219344)**<br>오렐리앙 제롱 · 박해선 옮김 · 한빛미디어 · 2026 · [코드](https://github.com/rickiepark/handson-mlp) | 아래 영어 목록 Hands-On ML (Scikit-Learn and PyTorch)의 한국어판 |
+| 책 | **[머신 러닝 교과서: 파이토치 편](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=329349411)**<br>세바스찬 라시카 외 · 박해선 옮김 · 길벗 · 2023 | 이론과 코드를 균형 있게 다루는 교과서 |
+| 책 | **[파이썬 머신러닝 완벽 가이드 (개정2판)](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=292601583)**<br>권철민 · 위키북스 · 2022 | 캐글 예제 중심으로 부스팅·피처 엔지니어링을 실전처럼 |
+| 강의 | **[인공지능 및 기계학습 개론 1](https://www.youtube.com/playlist?list=PLzZ7PPT4KK5pc2YCyoJVITY897cbyUEHL)**<br>문일철 교수 (KAIST KOOC) | MLE·MAP·나이브 베이즈 등 확률적 관점의 정석 강의 |
+| 강의 | **[Business Analytics (대학원)](https://www.youtube.com/playlist?list=PLetSlH8YjIfWMdw9AuLR5ybkVvGcoG2EW)**<br>강필성 교수 (DSBA 연구실) · [XGBoost 강의](https://www.youtube.com/watch?v=VHky3d_qZ_E) | 차원 축소·이상 탐지·앙상블을 대학원 수준으로 |
+| 강의 | **[모두를 위한 머신러닝/딥러닝](https://hunkim.github.io/ml/)**<br>김성훈 교수 | 한국어 머신러닝 입문의 고전. 짧은 강의 여러 개 |
+
+## 🌐 영어 자료
 
 **먼저 읽을 것 (★)**: A Few Useful Things to Know About Machine Learning → XGBoost → SHAP
 
@@ -12,7 +30,7 @@
 
 | 상태 | 유형 | 자료 | 왜 읽나 | 선수 지식 |
 |---|---|---|---|---|
-| ⬜ | 강의 | **[Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course)**<br>Google | 짧은 시간에 ML 전체 흐름 잡기 (무료) | [ML 기초](../00_Foundations/04_ml-basics.md) |
+| ⬜ | 강의 | **[Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course)**<br>Google<br>🇰🇷 [한국어판](https://developers.google.com/machine-learning/crash-course?hl=ko) | 짧은 시간에 ML 전체 흐름 잡기 (무료) | [ML 기초](../00_Foundations/04_ml-basics.md) |
 | ⬜ | 강의 | **[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)**<br>Andrew Ng, Coursera | 가장 널리 쓰이는 ML 입문 강의 | [ML 기초](../00_Foundations/04_ml-basics.md) |
 | ⬜ | 강의 | **[scikit-learn MOOC](https://inria.github.io/scikit-learn-mooc/)**<br>Inria (scikit-learn 개발팀) | 파이프라인·교차검증·튜닝을 올바르게 쓰는 법 (노트북 무료) | [ML 기초](../00_Foundations/04_ml-basics.md) · [도구](../00_Foundations/08_data-tools.md) |
 | ⬜ | 실습 | **[Kaggle Learn](https://www.kaggle.com/learn)**<br>Kaggle | pandas·ML·피처 엔지니어링 짧은 실습 코스 | [도구](../00_Foundations/08_data-tools.md) · [ML 기초](../00_Foundations/04_ml-basics.md) |
@@ -22,14 +40,14 @@
 | 상태 | 유형 | 자료 | 왜 읽나 | 선수 지식 |
 |---|---|---|---|---|
 | ⬜ | 책 | **[Interpretable Machine Learning](https://christophm.github.io/interpretable-ml-book/)**<br>Christoph Molnar | 해석 기법(PDP, SHAP, LIME 등) 총정리 (웹 무료) | [ML 기초](../00_Foundations/04_ml-basics.md) |
-| ⬜ | 책 | 🆕 **[Hands-On Machine Learning with Scikit-Learn and PyTorch](https://github.com/ageron/handson-mlp)**<br>Aurélien Géron, 2025 · GitHub | 실습 중심 ML 입문서의 최신판 (노트북 공개) | [ML 기초](../00_Foundations/04_ml-basics.md) · [도구](../00_Foundations/08_data-tools.md) |
+| ⬜ | 책 | 🆕 **[Hands-On Machine Learning with Scikit-Learn and PyTorch](https://github.com/ageron/handson-mlp)**<br>Aurélien Géron, 2025 · GitHub<br>🇰🇷 [한국어판](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=403219344) | 실습 중심 ML 입문서의 최신판 (노트북 공개) | [ML 기초](../00_Foundations/04_ml-basics.md) · [도구](../00_Foundations/08_data-tools.md) |
 | ⬜ | 논문 | **[Random Forests](https://doi.org/10.1023/A:1010933404324)**<br>Breiman, 2001 · DOI | 배깅+랜덤 피처. 앙상블의 기본 | [ML 기초](../00_Foundations/04_ml-basics.md) · [확률·통계](../00_Foundations/03_probability-statistics.md) |
 | ⬜ | 논문 | **[Greedy Function Approximation: A Gradient Boosting Machine](https://doi.org/10.1214/aos/1013203451)**<br>Friedman, 2001 · DOI | 그래디언트 부스팅의 원전 | [ML 기초](../00_Foundations/04_ml-basics.md) · [미적분·최적화](../00_Foundations/02_calculus-optimization.md) |
 | ⬜ | 논문 | **[Scikit-learn: Machine Learning in Python](https://arxiv.org/abs/1201.0490)**<br>Pedregosa et al., 2011 · arXiv 1201.0490 | 매일 쓰는 라이브러리의 설계 철학 (fit/predict 일관 API) | [ML 기초](../00_Foundations/04_ml-basics.md) · [도구](../00_Foundations/08_data-tools.md) |
 | ⬜ | 논문 | ★ **[A Few Useful Things to Know About Machine Learning](https://doi.org/10.1145/2347736.2347755)**<br>Domingos, 2012 · DOI | 과적합·차원의 저주·피처 엔지니어링 등 "교과서에 없는 실전 지혜" 12가지 | [ML 기초](../00_Foundations/04_ml-basics.md) |
-| ⬜ | 논문 | ★ **[XGBoost: A Scalable Tree Boosting System](https://arxiv.org/abs/1603.02754)**<br>Chen & Guestrin, 2016 · arXiv 1603.02754 | 정형 데이터 대회·실무 표준. 정규화된 목적함수와 시스템 최적화 | [ML 기초](../00_Foundations/04_ml-basics.md) · [미적분·최적화](../00_Foundations/02_calculus-optimization.md) |
+| ⬜ | 논문 | ★ **[XGBoost: A Scalable Tree Boosting System](https://arxiv.org/abs/1603.02754)**<br>Chen & Guestrin, 2016 · arXiv 1603.02754<br>🇰🇷 [DSBA XGBoost 강의](https://www.youtube.com/watch?v=VHky3d_qZ_E) · [김성범 교수 Boosting](https://www.youtube.com/watch?v=GciPwN2cde4) | 정형 데이터 대회·실무 표준. 정규화된 목적함수와 시스템 최적화 | [ML 기초](../00_Foundations/04_ml-basics.md) · [미적분·최적화](../00_Foundations/02_calculus-optimization.md) |
 | ⬜ | 논문 | **[LightGBM: A Highly Efficient Gradient Boosting Decision Tree](https://papers.nips.cc/paper/2017/hash/6449f44a102fde848669bdd9eb6b76fa-Abstract.html)**<br>Ke et al., 2017 | GOSS·EFB로 대용량에서 빠른 부스팅 | [ML 기초](../00_Foundations/04_ml-basics.md) |
-| ⬜ | 논문 | ★ **[A Unified Approach to Interpreting Model Predictions (SHAP)](https://arxiv.org/abs/1705.07874)**<br>Lundberg & Lee, 2017 · arXiv 1705.07874 | 모델 해석의 사실상 표준 | [ML 기초](../00_Foundations/04_ml-basics.md) · [확률·통계](../00_Foundations/03_probability-statistics.md) |
+| ⬜ | 논문 | ★ **[A Unified Approach to Interpreting Model Predictions (SHAP)](https://arxiv.org/abs/1705.07874)**<br>Lundberg & Lee, 2017 · arXiv 1705.07874<br>🇰🇷 [김성범 교수 Shapley Value](https://www.youtube.com/watch?v=f2XqxOny3NA) | 모델 해석의 사실상 표준 | [ML 기초](../00_Foundations/04_ml-basics.md) · [확률·통계](../00_Foundations/03_probability-statistics.md) |
 | ⬜ | 논문 | **[A Gentle Introduction to Conformal Prediction and Distribution-Free Uncertainty Quantification](https://arxiv.org/abs/2107.07511)**<br>Angelopoulos & Bates, 2021 · arXiv 2107.07511 | 어떤 모델이든 "보장된" 예측 구간을 붙이는 방법 | [확률·통계](../00_Foundations/03_probability-statistics.md) · [ML 기초](../00_Foundations/04_ml-basics.md) |
 | ⬜ | 논문 | **[Tabular Data: Deep Learning is Not All You Need](https://arxiv.org/abs/2106.03253)**<br>Shwartz-Ziv & Armon, 2021 · arXiv 2106.03253 | 정형 데이터에서 XGBoost가 딥러닝보다 강하다는 재현 실험 | [ML 기초](../00_Foundations/04_ml-basics.md) · [신경망](../00_Foundations/05_neural-networks.md) |
 | ⬜ | 논문 | **[Leakage and the Reproducibility Crisis in ML-based Science](https://arxiv.org/abs/2207.07048)**<br>Kapoor & Narayanan, 2022 · arXiv 2207.07048 | 17개 분야 수백 편에서 발견된 데이터 누수 유형 정리 — 내 실험 점검표로 쓸 것 | [ML 기초](../00_Foundations/04_ml-basics.md) |
@@ -58,4 +76,4 @@
 | ⬜ | 논문 | 🆕 **[TabICLv2: A better, faster, scalable, and open tabular foundation model](https://arxiv.org/abs/2602.11139)**<br>Qu et al., 2026 · arXiv 2602.11139 | 학습 코드까지 공개한 정형 파운데이션 모델 — TabPFN-3 보고서와 주장·평가 설정을 비교하며 읽기 | [ML 기초](../00_Foundations/04_ml-basics.md) · [어텐션·Transformer](../00_Foundations/06_attention-transformer.md) |
 
 ---
-링크 확인: 2026-11-10(기존 자료), 2026-11-16~17(추가 자료) — arXiv API · Crossref · HTTP 응답 · YouTube · GitHub로 제목 대조
+링크 확인: 2026-11-10(기존 자료), 2026-11-16~17(추가 자료), 2026-11-23~24(한국어 자료) — arXiv API · Crossref · HTTP 응답 · YouTube · GitHub로 제목 대조

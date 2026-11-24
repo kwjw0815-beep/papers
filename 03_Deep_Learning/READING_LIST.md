@@ -2,9 +2,25 @@
 
 신경망을 학습시키는 핵심 부품(역전파, 최적화, 정규화, 잔차연결)을 이해한다.
 
-> **읽는 법:** ①→②→③ 순서. **★** 는 먼저 읽을 코어 자료, **🆕** 는 2025~2026년에 나온 자료다.  
+> **읽는 법:** 영어가 부담되면 바로 아래 **🇰🇷 한국어로 시작하기**부터 본다. 영어 자료는 ①→②→③ 순서. **★** 는 먼저 볼 코어 자료, **🆕** 는 2025~2026년에 나온 자료다.  
 > `선수 지식`의 문서를 먼저 훑고 오면 수월하다. 읽고 정리한 자료는 `상태`를 ✅로 바꾸고 노트 폴더를 연결한다.  
 > 읽기 가이드·실습 과제·기억 점검 퀴즈는 [PRACTICE.md](PRACTICE.md), 실습 노트북은 [LABS.md](../LABS.md).
+
+## 🇰🇷 한국어로 시작하기
+
+영어 자료가 막막하면 여기서 시작한다. **★** 표시가 한국어로 먼저 볼 자료다. 번역서는 아래 영어 표의 원서와 내용이 같고, 영어 표에서 한국어판이나 한국어 해설이 있는 자료에는 🇰🇷 링크를 달아 두었다.
+
+| 유형 | 자료 | 왜 보나 |
+|---|---|---|
+| 책 | ★ 🆕 **[밑바닥부터 시작하는 딥러닝 1 (리마스터판)](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=356399264)**<br>사이토 고키 · 개앞맵시 옮김 · 한빛미디어 · 2025 · [2권 (RNN·NLP)](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=189641292) · [3권 (프레임워크)](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=256067157) · [4권 (강화학습)](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=332558447) | 넘파이만으로 신경망·역전파를 직접 구현. 한국 딥러닝 입문의 표준 |
+| 책·강의 | ★ **[Easy! 딥러닝](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=352995281)**<br>혁펜하임 · 북엔드 · 2024 · [Adam 강의](https://www.youtube.com/watch?v=wVBuPlBBbAE) · [ResNet skip-connection 강의](https://www.youtube.com/watch?v=Fypk0ec32BU) | 그림과 직관 위주의 입문서와 유튜브 강의 |
+| 웹 | ★ **[파이토치 한국어 튜토리얼](https://tutorials.pytorch.kr/)**<br>PyTorch 한국 사용자 모임 | PyTorch 공식 튜토리얼의 한국어 번역 |
+| 영상 | ★ **[꼼꼼한 딥러닝 논문 리뷰와 코드 실습](https://www.youtube.com/playlist?list=PLRx0vPvlEmdADpce8aoBhNnDaaHQN1Typ)**<br>동빈나 · [코드](https://github.com/ndb796/Deep-Learning-Paper-Review-and-Practice) | ResNet·BatchNorm·Transformer·GAN 등 고전 논문을 한국어로 한 줄씩 읽고 코드로 확인 |
+| 영상 | **[PR12 딥러닝 논문읽기 모임](https://www.youtube.com/playlist?list=PL0oFI08O71gKjGhaWctTPvvM7_cVzsAtK)**<br>TensorFlow Korea (TF-KR) · [다른 재생목록](https://www.youtube.com/playlist?list=PLlMkM4tgfjnJhhd4wn5aj8fVTYJwIpWkS) | 수백 편의 딥러닝 논문을 한국어로 30분씩 리뷰한 모임 |
+| 웹책 | **[Dive into Deep Learning (한국어판)](https://ko.d2l.ai/)**<br>D2L 한국어 번역 | 아래 영어 목록 D2L의 한국어 번역. 원서보다 이전 판을 번역했다 |
+| 강의 | **[모두를 위한 딥러닝 시즌 1 · 시즌 2](https://www.youtube.com/playlist?list=PLlMkM4tgfjnLSOjrEJN31gZATbcj_MpUm)**<br>김성훈 교수 / 커뮤니티 · [시즌 2](https://deeplearningzerotoall.github.io/season2/) · [시즌 2 PyTorch 코드](https://github.com/deeplearningzerotoall/PyTorch) | 한국어 딥러닝 입문 강의의 고전 (시즌 2는 PyTorch·TensorFlow 실습) |
+
+## 🌐 영어 자료
 
 **먼저 읽을 것 (★)**: Adam → ResNet
 
@@ -25,17 +41,17 @@
 |---|---|---|---|---|
 | ⬜ | 실습 | **[UvA Deep Learning Tutorials](https://uvadlc-notebooks.readthedocs.io/)**<br>Univ. of Amsterdam | 최적화·어텐션·생성 모델을 노트북으로 구현 (Colab) | [신경망](../00_Foundations/05_neural-networks.md) · [도구](../00_Foundations/08_data-tools.md) |
 | ⬜ | 실습 | **[Annotated Deep Learning Paper Implementations](https://nn.labml.ai/)**<br>labml.ai | 논문 수식과 코드를 나란히 놓고 읽는 사이트 — 논문-코드 대응 연습에 최적 | [신경망](../00_Foundations/05_neural-networks.md) · [도구](../00_Foundations/08_data-tools.md) |
-| ⬜ | 책 | **[Dive into Deep Learning](https://d2l.ai/)**<br>Zhang et al. | 수식·코드·설명이 함께 있는 무료 교재 | [신경망](../00_Foundations/05_neural-networks.md) |
+| ⬜ | 책 | **[Dive into Deep Learning](https://d2l.ai/)**<br>Zhang et al.<br>🇰🇷 [한국어판](https://ko.d2l.ai/) | 수식·코드·설명이 함께 있는 무료 교재 | [신경망](../00_Foundations/05_neural-networks.md) |
 | ⬜ | 책 | **[Understanding Deep Learning](https://udlbook.github.io/udlbook/)**<br>Simon Prince | 최신 내용까지 담은 그림 중심 교재 (PDF 무료) | [신경망](../00_Foundations/05_neural-networks.md) |
 | ⬜ | 책 | **[Deep Learning: Foundations and Concepts](https://www.bishopbook.com/)** †<br>Bishop & Bishop, 2024 | Transformer·디퓨전까지 담은 최신 교과서 (웹 무료 열람) | [선형대수](../00_Foundations/01_linear-algebra.md) · [확률·통계](../00_Foundations/03_probability-statistics.md) · [신경망](../00_Foundations/05_neural-networks.md) |
 | ⬜ | 블로그 | **[A Recipe for Training Neural Networks](https://karpathy.github.io/2019/04/25/recipe/)**<br>Andrej Karpathy, 2019 | 신경망 학습이 "조용히 실패"하는 이유와 단계별 점검 절차 | [신경망](../00_Foundations/05_neural-networks.md) · [미적분·최적화](../00_Foundations/02_calculus-optimization.md) |
 | ⬜ | 문서 | **[Deep Learning Tuning Playbook](https://github.com/google-research/tuning_playbook)**<br>Google Research · GitHub | 학습률·배치 크기·옵티마이저를 체계적으로 튜닝하는 절차 | [신경망](../00_Foundations/05_neural-networks.md) · [미적분·최적화](../00_Foundations/02_calculus-optimization.md) |
 | ⬜ | 논문 | **[Learning representations by back-propagating errors](https://doi.org/10.1038/323533a0)**<br>Rumelhart, Hinton, Williams, 1986 · DOI | 역전파의 원전 (3쪽) | [신경망](../00_Foundations/05_neural-networks.md) · [미적분·최적화](../00_Foundations/02_calculus-optimization.md) |
 | ⬜ | 논문 | **[Dropout: A Simple Way to Prevent Neural Networks from Overfitting](https://jmlr.org/papers/v15/srivastava14a.html)**<br>Srivastava et al., 2014 | 가장 유명한 정규화 기법 | [신경망](../00_Foundations/05_neural-networks.md) |
-| ⬜ | 논문 | ★ **[Adam: A Method for Stochastic Optimization](https://arxiv.org/abs/1412.6980)**<br>Kingma & Ba, 2014 · arXiv 1412.6980 | 기본 옵티마이저 | [미적분·최적화](../00_Foundations/02_calculus-optimization.md) · [신경망](../00_Foundations/05_neural-networks.md) |
+| ⬜ | 논문 | ★ **[Adam: A Method for Stochastic Optimization](https://arxiv.org/abs/1412.6980)**<br>Kingma & Ba, 2014 · arXiv 1412.6980<br>🇰🇷 [혁펜하임 Adam 강의](https://www.youtube.com/watch?v=wVBuPlBBbAE) | 기본 옵티마이저 | [미적분·최적화](../00_Foundations/02_calculus-optimization.md) · [신경망](../00_Foundations/05_neural-networks.md) |
 | ⬜ | 논문 | **[Deep learning](https://doi.org/10.1038/nature14539)**<br>LeCun, Bengio, Hinton, 2015 · DOI | 딥러닝 전체를 조망하는 Nature 리뷰 | [신경망](../00_Foundations/05_neural-networks.md) |
-| ⬜ | 논문 | **[Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://arxiv.org/abs/1502.03167)**<br>Ioffe & Szegedy, 2015 · arXiv 1502.03167 | 깊은 망 학습 안정화 | [신경망](../00_Foundations/05_neural-networks.md) |
-| [✅](2026-11-16_resnet-deep-residual-learning) | 논문 | ★ **[Deep Residual Learning for Image Recognition (ResNet)](https://arxiv.org/abs/1512.03385)**<br>He et al., 2015 · arXiv 1512.03385 | 잔차 연결 — Transformer까지 이어지는 핵심 아이디어 | [신경망](../00_Foundations/05_neural-networks.md) |
+| ⬜ | 논문 | **[Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://arxiv.org/abs/1502.03167)**<br>Ioffe & Szegedy, 2015 · arXiv 1502.03167<br>🇰🇷 [동빈나 리뷰](https://www.youtube.com/watch?v=58fuWVu5DVU) | 깊은 망 학습 안정화 | [신경망](../00_Foundations/05_neural-networks.md) |
+| [✅](2026-11-16_resnet-deep-residual-learning) | 논문 | ★ **[Deep Residual Learning for Image Recognition (ResNet)](https://arxiv.org/abs/1512.03385)**<br>He et al., 2015 · arXiv 1512.03385<br>🇰🇷 [동빈나 리뷰](https://www.youtube.com/watch?v=671BsKl8d0E) · [PR-170](https://www.youtube.com/watch?v=7fSgqlC7Wdo) · [혁펜하임 skip-connection](https://www.youtube.com/watch?v=Fypk0ec32BU) · [풀이 예시 노트](2026-11-16_resnet-deep-residual-learning/summary.md) | 잔차 연결 — Transformer까지 이어지는 핵심 아이디어 | [신경망](../00_Foundations/05_neural-networks.md) |
 | ⬜ | 논문 | **[Layer Normalization](https://arxiv.org/abs/1607.06450)**<br>Ba, Kiros, Hinton, 2016 · arXiv 1607.06450 | Transformer의 정규화 층. BatchNorm과의 차이 | [신경망](../00_Foundations/05_neural-networks.md) |
 | ⬜ | 논문 | **[Decoupled Weight Decay Regularization (AdamW)](https://arxiv.org/abs/1711.05101)**<br>Loshchilov & Hutter, 2017 · arXiv 1711.05101 | 요즘 거의 모든 모델이 쓰는 옵티마이저. Adam의 weight decay가 왜 틀렸는지 | [미적분·최적화](../00_Foundations/02_calculus-optimization.md) · [신경망](../00_Foundations/05_neural-networks.md) |
 
@@ -57,4 +73,4 @@
 † 표시는 이 환경에서 접속이 차단되어 자동 확인을 못 한 링크(널리 알려진 주소).
 
 ---
-링크 확인: 2026-11-10(기존 자료), 2026-11-16~17(추가 자료) — arXiv API · Crossref · HTTP 응답 · YouTube · GitHub로 제목 대조
+링크 확인: 2026-11-10(기존 자료), 2026-11-16~17(추가 자료), 2026-11-23~24(한국어 자료) — arXiv API · Crossref · HTTP 응답 · YouTube · GitHub로 제목 대조

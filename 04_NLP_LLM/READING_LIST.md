@@ -2,9 +2,37 @@
 
 단어 임베딩 → 어텐션 → Transformer → 사전학습 → LLM 활용(RAG·에이전트·평가) 순으로 읽는다.
 
-> **읽는 법:** ①→②→③ 순서. **★** 는 먼저 읽을 코어 자료, **🆕** 는 2025~2026년에 나온 자료다.  
+> **읽는 법:** 영어가 부담되면 바로 아래 **🇰🇷 한국어로 시작하기**부터 본다. 영어 자료는 ①→②→③ 순서. **★** 는 먼저 볼 코어 자료, **🆕** 는 2025~2026년에 나온 자료다.  
 > `선수 지식`의 문서를 먼저 훑고 오면 수월하다. 읽고 정리한 자료는 `상태`를 ✅로 바꾸고 노트 폴더를 연결한다.  
 > 읽기 가이드·실습 과제·기억 점검 퀴즈는 [PRACTICE.md](PRACTICE.md), 실습 노트북은 [LABS.md](../LABS.md).
+
+## 🇰🇷 한국어로 시작하기
+
+영어 자료가 막막하면 여기서 시작한다. **★** 표시가 한국어로 먼저 볼 자료다. 번역서는 아래 영어 표의 원서와 내용이 같고, 영어 표에서 한국어판이나 한국어 해설이 있는 자료에는 🇰🇷 링크를 달아 두었다.
+
+| 유형 | 자료 | 왜 보나 |
+|---|---|---|
+| 웹책 | ★ **[딥 러닝을 이용한 자연어 처리 입문 — RAG, 에이전트, LLM 파인튜닝까지](https://wikidocs.net/book/2155)** ‡<br>유원준 · 안상준 · 위키독스 | 무료 한국어 NLP 입문서. 최신판은 RAG·에이전트까지 다룬다 |
+| 영상 | ★ **[트랜스포머 · 어텐션 · LLM 설명 (한국어판)](https://www.youtube.com/watch?v=g38aoGttLhI)**<br>3Blue1Brown 한국어 · [어텐션 (DL6)](https://www.youtube.com/watch?v=_Z3rXeJahMs) · [LLM 요약](https://www.youtube.com/watch?v=HnvitMTkXro) | 아래 영어 목록에 있는 3Blue1Brown 영상의 공식 한국어판 |
+| 책·강의 | ★ 🆕 **[밑바닥부터 만들면서 배우는 LLM](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=372272431)**<br>세바스찬 라시카 · 박해선 옮김 · 길벗 · 2025 · [역자 강의](https://www.youtube.com/playlist?list=PLJN246lAkhQhgakhcxz-5GwG_NYuJgSv1) · [코드](https://github.com/rickiepark/llm-from-scratch) | 아래 영어 목록 Build a LLM (From Scratch)의 한국어판. 역자 해설 영상이 있다 |
+| 책 | 🆕 **[핸즈온 LLM](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=364507859)**<br>제이 알아마르 외 · 박해선 옮김 · 한빛미디어 · 2025 · [코드](https://github.com/rickiepark/handson-llm) | 아래 영어 목록 Hands-On Large Language Models의 한국어판 |
+| 책 | 🆕 **[AI 엔지니어링](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=373097975)**<br>칩 후옌 · 변성윤 옮김 · 한빛미디어 · 2025 | 아래 영어 목록 AI Engineering의 한국어판. 평가·RAG·미세조정·추론 최적화 |
+| 책 | **[LLM을 활용한 실전 AI 애플리케이션 개발](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=343185652)**<br>허정준 · 책만 · 2024 · [코드](https://github.com/onlybooks/llm) | 한국인 저자가 쓴 LLM 학습·RAG 실전서 |
+| 책 | 🆕 **[LLM 엔지니어링](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=363187643)**<br>폴 이우수틴 · 막심 라본 · 조우철 옮김 · 한빛미디어 · 2025 | RAG·파인튜닝·LLMOps로 이어지는 실무 흐름 |
+| 책 | **[트랜스포머를 활용한 자연어 처리](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=305722359)**<br>루이스 턴스톨 외 · 박해선 옮김 · 한빛미디어 · 2022 | Hugging Face 개발팀이 쓴 transformers 실전서 |
+| 책·웹 | **[한국어 임베딩 · ratsgo's NLPBOOK](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=206404643)**<br>이기창 · 에이콘 · 2019 / 웹북 · [NLPBOOK (무료)](https://ratsgo.github.io/nlpbook/) · [코드](https://github.com/ratsgo/embedding) | 한국어 데이터로 Word2Vec부터 BERT·GPT까지 |
+| 강의 | **[Hugging Face LLM 강좌 · 에이전트 강좌 (한국어)](https://huggingface.co/learn/llm-course/ko/chapter1/1)**<br>Hugging Face · [에이전트 강좌](https://huggingface.co/learn/agents-course/ko/unit0/introduction) · [transformers 문서](https://huggingface.co/docs/transformers/ko/index) | 아래 영어 목록의 Hugging Face 강좌 한국어판 |
+| 강의 | **[Text Analytics](https://www.youtube.com/playlist?list=PLetSlH8YjIfVzHuSXtG4jAC2zbEAErXWm)**<br>강필성 교수 (DSBA 연구실) · [BERT 강의](https://www.youtube.com/watch?v=IwtexRHoWG0) | 단어 임베딩부터 BERT까지 대학원 강의 |
+| 영상 | **[RAG·LangGraph 한국어 튜토리얼](https://www.youtube.com/watch?v=zybyszetEcE)**<br>테디노트 · [LangGraph 3시간](https://www.youtube.com/watch?v=W_uwR_yx4-c) · [랭체인 한국어 튜토리얼](https://github.com/teddylee777/langchain-kr) | RAG가 어떻게 동작하는지 쉽게 + 실습 코드 |
+| 블로그 | 🆕 **[LLM을 길들이는 법 · LLM-as-a-Judge (1·2부)](https://hyperconnect.github.io/2026/04/22/how-hyperconnect-built-llm-explanation-policy.html)**<br>하이퍼커넥트 · 2026 · [2부](https://hyperconnect.github.io/2026/04/22/llm-as-a-judge-for-explanation-quality.html) | 정답 데이터가 없을 때 LLM을 정책에 맞추고 평가하는 실무 기록 |
+| 블로그 | 🆕 **[LLM Wiki + RAG 혼합기](https://helloworld.kurly.com/blog/2026-delivery-domain-rag)**<br>컬리 · 2026 | 도메인 지식을 LLM에 넣으려다 두 번 갈아엎은 실패 기록 — RAG 설계의 함정 |
+| 블로그 | 🆕 **[Kanana-2 개발기 (1) 사전학습 · (2) 후처리](https://tech.kakao.com/posts/807)**<br>카카오 · 2026 · [(2) post-training](https://tech.kakao.com/posts/808) | 한국 기업이 LLM을 만들며 내린 결정들을 한국어로 읽을 수 있는 드문 자료 |
+| 논문(영어) | **[KMMLU · HAE-RAE Bench · CLIcK](https://arxiv.org/abs/2402.11548)**<br>Son et al. 2024 · Son et al. 2023 · Kim et al. 2024 · [HAE-RAE](https://arxiv.org/abs/2309.02706) · [CLIcK](https://arxiv.org/abs/2403.06412) | 한국어 LLM을 평가하는 대표 벤치마크. 영어로 쓰였지만 한국어 모델을 비교할 때 필수 |
+| 논문(영어) | 🆕 **[From KMMLU-Redux to KMMLU-Pro · Open Ko-LLM Leaderboard](https://arxiv.org/abs/2507.08924)**<br>2025 · 2024 · [Open Ko-LLM Leaderboard](https://arxiv.org/abs/2405.20574) | 한국어 전문 지식 평가와 한국어 리더보드의 설계 |
+
+> `논문(영어)`는 영어로 쓰였지만 한국어·한국 모델을 다루는 논문이다.<br>‡ 이 환경에서는 직접 접속이 막혀, 검색 결과로 제목과 주소를 확인한 링크.
+
+## 🌐 영어 자료
 
 **먼저 읽을 것 (★)**: Attention Is All You Need → BERT → RAG → Adding Error Bars to Evals → BBQ
 
@@ -12,12 +40,12 @@
 
 | 상태 | 유형 | 자료 | 왜 읽나 | 선수 지식 |
 |---|---|---|---|---|
-| ⬜ | 영상 | **[Transformers, the tech behind LLMs](https://www.youtube.com/watch?v=wjZofJX0v4M)**<br>3Blue1Brown | GPT 내부를 시각적으로 설명 | [어텐션·Transformer](../00_Foundations/06_attention-transformer.md) |
+| ⬜ | 영상 | **[Transformers, the tech behind LLMs](https://www.youtube.com/watch?v=wjZofJX0v4M)**<br>3Blue1Brown<br>🇰🇷 [한국어판](https://www.youtube.com/watch?v=g38aoGttLhI) | GPT 내부를 시각적으로 설명 | [어텐션·Transformer](../00_Foundations/06_attention-transformer.md) |
 | ⬜ | 영상 | **[[1hr Talk] Intro to Large Language Models](https://www.youtube.com/watch?v=zjkBMFhNj_g)**<br>Andrej Karpathy | LLM이 무엇이고 어디로 가는지 1시간 개관 | [신경망](../00_Foundations/05_neural-networks.md) |
 | ⬜ | 영상 | 🆕 **[Deep Dive into LLMs like ChatGPT](https://www.youtube.com/watch?v=7xTGNNLPyMI)**<br>Andrej Karpathy, 2025 · YouTube | 데이터 수집→토큰화→사전학습→후처리→추론을 3시간 반에 일반인 눈높이로 | [신경망](../00_Foundations/05_neural-networks.md) |
-| ⬜ | 영상 | **[Attention in transformers, step-by-step](https://www.youtube.com/watch?v=eMlx5fFNoYc)**<br>3Blue1Brown · YouTube | Q·K·V가 실제로 무엇을 하는지 애니메이션으로 | [어텐션·Transformer](../00_Foundations/06_attention-transformer.md) |
-| ⬜ | 책 | **[Hands-On Large Language Models](https://github.com/HandsOnLLM/Hands-On-Large-Language-Models)**<br>Alammar & Grootendorst, 2024 · GitHub | 그림 중심 LLM 입문서 (전 장 Colab 노트북 공개) | [어텐션·Transformer](../00_Foundations/06_attention-transformer.md) · [도구](../00_Foundations/08_data-tools.md) |
-| ⬜ | 블로그 | **[The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)**<br>Jay Alammar | Transformer 논문을 읽기 전 반드시 볼 그림 설명 | [어텐션·Transformer](../00_Foundations/06_attention-transformer.md) |
+| ⬜ | 영상 | **[Attention in transformers, step-by-step](https://www.youtube.com/watch?v=eMlx5fFNoYc)**<br>3Blue1Brown · YouTube<br>🇰🇷 [한국어판](https://www.youtube.com/watch?v=_Z3rXeJahMs) | Q·K·V가 실제로 무엇을 하는지 애니메이션으로 | [어텐션·Transformer](../00_Foundations/06_attention-transformer.md) |
+| ⬜ | 책 | **[Hands-On Large Language Models](https://github.com/HandsOnLLM/Hands-On-Large-Language-Models)**<br>Alammar & Grootendorst, 2024 · GitHub<br>🇰🇷 [한국어판](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=364507859) | 그림 중심 LLM 입문서 (전 장 Colab 노트북 공개) | [어텐션·Transformer](../00_Foundations/06_attention-transformer.md) · [도구](../00_Foundations/08_data-tools.md) |
+| ⬜ | 블로그 | **[The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)**<br>Jay Alammar<br>🇰🇷 [3Blue1Brown 한국어 어텐션](https://www.youtube.com/watch?v=_Z3rXeJahMs) | Transformer 논문을 읽기 전 반드시 볼 그림 설명 | [어텐션·Transformer](../00_Foundations/06_attention-transformer.md) |
 
 ## ② 핵심
 
@@ -27,11 +55,11 @@
 | ⬜ | 영상 | **[Let's build the GPT Tokenizer](https://www.youtube.com/watch?v=zduSFxRajkE)**<br>Andrej Karpathy, 2024 · YouTube | BPE 토크나이저를 밑바닥부터 구현 | [어텐션·Transformer](../00_Foundations/06_attention-transformer.md) · [도구](../00_Foundations/08_data-tools.md) |
 | ⬜ | 영상 | **[Let's reproduce GPT-2 (124M)](https://www.youtube.com/watch?v=l8pRSuU81PU)**<br>Andrej Karpathy, 2024 · YouTube | GPT-2를 처음부터 재현 — 학습 속도·안정화 기법까지 | [어텐션·Transformer](../00_Foundations/06_attention-transformer.md) · [미적분·최적화](../00_Foundations/02_calculus-optimization.md) · [도구](../00_Foundations/08_data-tools.md) |
 | ⬜ | 강의 | **[CS224N: NLP with Deep Learning](https://web.stanford.edu/class/cs224n/)** †<br>Stanford | NLP 표준 강의 | [신경망](../00_Foundations/05_neural-networks.md) · [어텐션·Transformer](../00_Foundations/06_attention-transformer.md) |
-| ⬜ | 강의 | **[Hugging Face Learn (LLM Course 등)](https://huggingface.co/learn)**<br>Hugging Face | transformers 라이브러리 실습 | [어텐션·Transformer](../00_Foundations/06_attention-transformer.md) · [도구](../00_Foundations/08_data-tools.md) |
+| ⬜ | 강의 | **[Hugging Face Learn (LLM Course 등)](https://huggingface.co/learn)**<br>Hugging Face<br>🇰🇷 [한국어판](https://huggingface.co/learn/llm-course/ko/chapter1/1) | transformers 라이브러리 실습 | [어텐션·Transformer](../00_Foundations/06_attention-transformer.md) · [도구](../00_Foundations/08_data-tools.md) |
 | ⬜ | 강의 | 🆕 **[Stanford CS336: Language Modeling from Scratch](https://cs336.stanford.edu/)**<br>Stanford (Liang, Hashimoto) | 토크나이저·Transformer·학습·데이터·정렬을 과제로 직접 구현 (2026 봄 강의 영상 공개) | [어텐션·Transformer](../00_Foundations/06_attention-transformer.md) · [미적분·최적화](../00_Foundations/02_calculus-optimization.md) · [도구](../00_Foundations/08_data-tools.md) |
-| ⬜ | 강의 | 🆕 **[Hugging Face Agents Course](https://huggingface.co/learn/agents-course)**<br>Hugging Face | 도구 사용·에이전트 프레임워크 실습 (무료) | [어텐션·Transformer](../00_Foundations/06_attention-transformer.md) · [도구](../00_Foundations/08_data-tools.md) |
-| ⬜ | 책 | **[Build a Large Language Model (From Scratch)](https://github.com/rasbt/LLMs-from-scratch)**<br>Sebastian Raschka, 2024 · GitHub | GPT를 직접 구현·사전학습·미세조정하는 책 (코드 전체 공개) | [어텐션·Transformer](../00_Foundations/06_attention-transformer.md) · [도구](../00_Foundations/08_data-tools.md) |
-| ⬜ | 책 | 🆕 **[AI Engineering](https://github.com/chiphuyen/aie-book)**<br>Chip Huyen, 2025 · GitHub | 파운데이션 모델로 제품을 만드는 전 과정: 평가·RAG·미세조정·추론 최적화 | [어텐션·Transformer](../00_Foundations/06_attention-transformer.md) · [ML 기초](../00_Foundations/04_ml-basics.md) |
+| ⬜ | 강의 | 🆕 **[Hugging Face Agents Course](https://huggingface.co/learn/agents-course)**<br>Hugging Face<br>🇰🇷 [한국어판](https://huggingface.co/learn/agents-course/ko/unit0/introduction) | 도구 사용·에이전트 프레임워크 실습 (무료) | [어텐션·Transformer](../00_Foundations/06_attention-transformer.md) · [도구](../00_Foundations/08_data-tools.md) |
+| ⬜ | 책 | **[Build a Large Language Model (From Scratch)](https://github.com/rasbt/LLMs-from-scratch)**<br>Sebastian Raschka, 2024 · GitHub<br>🇰🇷 [한국어판](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=372272431) | GPT를 직접 구현·사전학습·미세조정하는 책 (코드 전체 공개) | [어텐션·Transformer](../00_Foundations/06_attention-transformer.md) · [도구](../00_Foundations/08_data-tools.md) |
+| ⬜ | 책 | 🆕 **[AI Engineering](https://github.com/chiphuyen/aie-book)**<br>Chip Huyen, 2025 · GitHub<br>🇰🇷 [한국어판](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=373097975) | 파운데이션 모델로 제품을 만드는 전 과정: 평가·RAG·미세조정·추론 최적화 | [어텐션·Transformer](../00_Foundations/06_attention-transformer.md) · [ML 기초](../00_Foundations/04_ml-basics.md) |
 | ⬜ | 블로그 | **[Your AI Product Needs Evals](https://hamel.dev/blog/posts/evals/)**<br>Hamel Husain, 2024 | LLM 제품의 평가 체계를 단계별로 만드는 실전 글 | [어텐션·Transformer](../00_Foundations/06_attention-transformer.md) |
 | ⬜ | 블로그 | 🆕 **[Building effective agents](https://www.anthropic.com/engineering/building-effective-agents)**<br>Anthropic, 2024 | 워크플로와 에이전트의 구분, 단순한 패턴부터 쓰라는 권고 | [어텐션·Transformer](../00_Foundations/06_attention-transformer.md) |
 | ⬜ | 블로그 | 🆕 **[Effective context engineering for AI agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)**<br>Anthropic, 2025 | 프롬프트 엔지니어링에서 컨텍스트 엔지니어링으로 | [어텐션·Transformer](../00_Foundations/06_attention-transformer.md) |
@@ -40,10 +68,10 @@
 | ⬜ | 논문 | **[Efficient Estimation of Word Representations in Vector Space (Word2Vec)](https://arxiv.org/abs/1301.3781)**<br>Mikolov et al., 2013 · arXiv 1301.3781 | 단어를 벡터로 — 임베딩의 출발점 | [선형대수](../00_Foundations/01_linear-algebra.md) · [신경망](../00_Foundations/05_neural-networks.md) |
 | ⬜ | 논문 | **[Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/abs/1409.0473)**<br>Bahdanau et al., 2014 · arXiv 1409.0473 | 어텐션의 시작 | [신경망](../00_Foundations/05_neural-networks.md) · [어텐션·Transformer](../00_Foundations/06_attention-transformer.md) |
 | ⬜ | 논문 | **[Neural Machine Translation of Rare Words with Subword Units (BPE)](https://arxiv.org/abs/1508.07909)**<br>Sennrich et al., 2015 · arXiv 1508.07909 | 서브워드 토큰화의 원전 — 모든 LLM 토크나이저의 뿌리 | [어텐션·Transformer](../00_Foundations/06_attention-transformer.md) |
-| ⬜ | 논문 | ★ **[Attention Is All You Need](https://arxiv.org/abs/1706.03762)**<br>Vaswani et al., 2017 · arXiv 1706.03762 | Transformer. 현대 AI에서 가장 중요한 논문 | [어텐션·Transformer](../00_Foundations/06_attention-transformer.md) |
-| ⬜ | 논문 | ★ **[BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)**<br>Devlin et al., 2018 · arXiv 1810.04805 | 사전학습+파인튜닝 패러다임 (인코더) | [어텐션·Transformer](../00_Foundations/06_attention-transformer.md) |
+| ⬜ | 논문 | ★ **[Attention Is All You Need](https://arxiv.org/abs/1706.03762)**<br>Vaswani et al., 2017 · arXiv 1706.03762<br>🇰🇷 [동빈나 리뷰](https://www.youtube.com/watch?v=AA621UofTUA) · [김성범 교수 Transformer](https://www.youtube.com/watch?v=a_-YgMO0u0E) · [3Blue1Brown 한국어 어텐션](https://www.youtube.com/watch?v=_Z3rXeJahMs) | Transformer. 현대 AI에서 가장 중요한 논문 | [어텐션·Transformer](../00_Foundations/06_attention-transformer.md) |
+| ⬜ | 논문 | ★ **[BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)**<br>Devlin et al., 2018 · arXiv 1810.04805<br>🇰🇷 [DSBA BERT 강의](https://www.youtube.com/watch?v=IwtexRHoWG0) | 사전학습+파인튜닝 패러다임 (인코더) | [어텐션·Transformer](../00_Foundations/06_attention-transformer.md) |
 | ⬜ | 논문 | **[Language Models are Few-Shot Learners (GPT-3)](https://arxiv.org/abs/2005.14165)**<br>Brown et al., 2020 · arXiv 2005.14165 | 프롬프트만으로 과제를 푸는 in-context learning | [어텐션·Transformer](../00_Foundations/06_attention-transformer.md) |
-| ⬜ | 논문 | ★ **[Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (RAG)](https://arxiv.org/abs/2005.11401)**<br>Lewis et al., 2020 · arXiv 2005.11401 | 검색 결합 생성 — 실무 LLM 서비스의 기본 구조 | [어텐션·Transformer](../00_Foundations/06_attention-transformer.md) |
+| ⬜ | 논문 | ★ **[Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (RAG)](https://arxiv.org/abs/2005.11401)**<br>Lewis et al., 2020 · arXiv 2005.11401<br>🇰🇷 [테디노트 RAG 동작 과정](https://www.youtube.com/watch?v=zybyszetEcE) | 검색 결합 생성 — 실무 LLM 서비스의 기본 구조 | [어텐션·Transformer](../00_Foundations/06_attention-transformer.md) |
 | ⬜ | 논문 | **[Dense Passage Retrieval for Open-Domain Question Answering](https://arxiv.org/abs/2004.04906)**<br>Karpukhin et al., 2020 · arXiv 2004.04906 | 임베딩 기반 검색의 표준 — RAG의 "R" | [어텐션·Transformer](../00_Foundations/06_attention-transformer.md) · [선형대수](../00_Foundations/01_linear-algebra.md) |
 | ⬜ | 논문 | **[Lost in the Middle: How Language Models Use Long Contexts](https://arxiv.org/abs/2307.03172)**<br>Liu et al., 2023 · arXiv 2307.03172 | 긴 문맥의 가운데 정보는 잘 못 쓴다 — RAG 설계에 직접 영향 | [어텐션·Transformer](../00_Foundations/06_attention-transformer.md) |
 | ⬜ | 논문 | **[Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena](https://arxiv.org/abs/2306.05685)**<br>Zheng et al., 2023 · arXiv 2306.05685 | LLM으로 LLM을 채점할 때의 일치도와 편향 | [어텐션·Transformer](../00_Foundations/06_attention-transformer.md) · [확률·통계](../00_Foundations/03_probability-statistics.md) |
@@ -88,4 +116,4 @@
 † 표시는 이 환경에서 접속이 차단되어 자동 확인을 못 한 링크(널리 알려진 주소).
 
 ---
-링크 확인: 2026-11-10(기존 자료), 2026-11-16~17(추가 자료) — arXiv API · Crossref · HTTP 응답 · YouTube · GitHub로 제목 대조
+링크 확인: 2026-11-10(기존 자료), 2026-11-16~17(추가 자료), 2026-11-23~24(한국어 자료) — arXiv API · Crossref · HTTP 응답 · YouTube · GitHub로 제목 대조

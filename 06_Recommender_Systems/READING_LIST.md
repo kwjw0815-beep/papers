@@ -2,9 +2,25 @@
 
 협업 필터링 → 행렬 분해 → 딥러닝 랭킹 → 산업 사례 순서.
 
-> **읽는 법:** ①→②→③ 순서. **★** 는 먼저 읽을 코어 자료, **🆕** 는 2025~2026년에 나온 자료다.  
+> **읽는 법:** 영어가 부담되면 바로 아래 **🇰🇷 한국어로 시작하기**부터 본다. 영어 자료는 ①→②→③ 순서. **★** 는 먼저 볼 코어 자료, **🆕** 는 2025~2026년에 나온 자료다.  
 > `선수 지식`의 문서를 먼저 훑고 오면 수월하다. 읽고 정리한 자료는 `상태`를 ✅로 바꾸고 노트 폴더를 연결한다.  
 > 읽기 가이드·실습 과제·기억 점검 퀴즈는 [PRACTICE.md](PRACTICE.md), 실습 노트북은 [LABS.md](../LABS.md).
+
+## 🇰🇷 한국어로 시작하기
+
+영어 자료가 막막하면 여기서 시작한다. **★** 표시가 한국어로 먼저 볼 자료다. 번역서는 아래 영어 표의 원서와 내용이 같고, 영어 표에서 한국어판이나 한국어 해설이 있는 자료에는 🇰🇷 링크를 달아 두었다.
+
+| 유형 | 자료 | 왜 보나 |
+|---|---|---|
+| 책 | ★ **[추천 시스템 입문](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=315987513)**<br>가자마 마사히로 외 · 김모세 옮김 · 한빛미디어 · 2023 | 설계·UI·평가까지 실무 관점의 입문서 |
+| 블로그 | ★ 🆕 **[하이퍼커넥트 추천 시리즈](https://hyperconnect.github.io/2024/10/21/beyond-collaborative-filtering.html)**<br>하이퍼커넥트 · 2024~2025 · [아자르 추천 모델](https://hyperconnect.github.io/2024/11/19/azar-recommendation-model.html) · [타깃 지표 (아하 모멘트)](https://hyperconnect.github.io/2024/04/26/azar-aha-moment.html) · [추천 실험 시스템 (2025)](https://hyperconnect.github.io/2025/08/26/azar-recsys-experiment-framework.html) | 국내 서비스(아자르)의 추천 모델링·타깃 지표·실험 시스템을 한국어로 |
+| 책 | **[추천 시스템 — 기초부터 실무까지](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=284926717)**<br>차루 아가르왈 · 박희원 외 옮김 · 에이콘 · 2021 | 추천 시스템 교과서 (원서 Recommender Systems: The Textbook) |
+| 책 | 🆕 **[파이썬과 JAX로 추천 시스템 구축하기](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=359371847)**<br>브라이언 비쇼프 외 · 동동구 옮김 · 제이펍 · 2025 | 대규모 상용 추천 시스템을 만들며 배우기 |
+| 기사 | 🆕 **[당근의 추천시스템은 LLM 안 부럽다](https://byline.network/2026/04/17_28182764/)**<br>바이라인네트워크 · 2026 | 클릭률만 보던 추천에서 다른 지표로 옮겨 간 당근의 변천 |
+| 블로그 | 🆕 **[Argo Workflows와 SageMaker로 추천 ML 파이프라인 구축기](https://helloworld.kurly.com/blog/recommend-ml-pipeline)**<br>컬리 · 2026 | 추천 모델·임베딩·검색 인덱스를 매일 안전하게 교체하는 파이프라인 |
+| 영상 | **[카카오웹툰 설명 가능한 추천 · 시퀀셜 추천 적용기](https://www.youtube.com/watch?v=KjZZ2wq-hgI)**<br>if(kakao)2022 · [시퀀셜 추천](https://www.youtube.com/watch?v=wti-0-_kB7c) | 카카오 서비스에 추천 모델을 적용한 사례 |
+
+## 🌐 영어 자료
 
 **먼저 읽을 것 (★)**: Matrix Factorization Techniques for Recommender Systems → Deep Neural Networks for YouTube Recommendations
 
@@ -25,7 +41,7 @@
 | ⬜ | 논문 | **[Collaborative Filtering for Implicit Feedback Datasets](https://doi.org/10.1109/ICDM.2008.22)**<br>Hu, Koren, Volinsky, 2008 · DOI | 클릭·시청 같은 암묵적 피드백용 행렬 분해(ALS) — 현업 베이스라인 | [선형대수](../00_Foundations/01_linear-algebra.md) · [미적분·최적화](../00_Foundations/02_calculus-optimization.md) |
 | ⬜ | 논문 | ★ **[Matrix Factorization Techniques for Recommender Systems](https://doi.org/10.1109/MC.2009.263)**<br>Koren et al., 2009 · DOI | Netflix Prize로 유명해진 행렬 분해 | [선형대수](../00_Foundations/01_linear-algebra.md) · [미적분·최적화](../00_Foundations/02_calculus-optimization.md) |
 | ⬜ | 논문 | **[BPR: Bayesian Personalized Ranking from Implicit Feedback](https://arxiv.org/abs/1205.2618)**<br>Rendle et al., 2009 · arXiv 1205.2618 | 클릭 같은 암묵적 피드백으로 순위 학습 | [확률·통계](../00_Foundations/03_probability-statistics.md) · [미적분·최적화](../00_Foundations/02_calculus-optimization.md) |
-| ⬜ | 논문 | ★ **[Deep Neural Networks for YouTube Recommendations](https://doi.org/10.1145/2959100.2959190)**<br>Covington et al., 2016 · DOI | 후보 생성+랭킹 2단계 구조의 대표 사례 | [신경망](../00_Foundations/05_neural-networks.md) |
+| ⬜ | 논문 | ★ **[Deep Neural Networks for YouTube Recommendations](https://doi.org/10.1145/2959100.2959190)**<br>Covington et al., 2016 · DOI<br>🇰🇷 [한국어 논문 정리](https://neatynut.github.io/deeplearning/dl_007) | 후보 생성+랭킹 2단계 구조의 대표 사례 | [신경망](../00_Foundations/05_neural-networks.md) |
 | ⬜ | 논문 | **[Wide & Deep Learning for Recommender Systems](https://arxiv.org/abs/1606.07792)**<br>Cheng et al., 2016 · arXiv 1606.07792 | 암기(wide)+일반화(deep) 결합 | [신경망](../00_Foundations/05_neural-networks.md) |
 | ⬜ | 논문 | **[Sampling-Bias-Corrected Neural Modeling for Large Corpus Item Recommendations](https://doi.org/10.1145/3298689.3346996)**<br>Yi et al., 2019 · DOI | 투타워(two-tower) 검색 모델과 in-batch negative 보정 | [신경망](../00_Foundations/05_neural-networks.md) · [확률·통계](../00_Foundations/03_probability-statistics.md) |
 | ⬜ | 논문 | **[Recommending What Video to Watch Next: A Multitask Ranking System](https://doi.org/10.1145/3298689.3346997)**<br>Zhao et al., 2019 · DOI | 여러 목표(클릭·시청·만족)를 함께 최적화하고 위치 편향을 보정 | [신경망](../00_Foundations/05_neural-networks.md) |
@@ -52,4 +68,4 @@
 | ⬜ | 논문 | 🆕 **[What Makes a Good Semantic ID for Generative Recommendation? A Reproducibility Study](https://arxiv.org/abs/2609.24430)**<br>2026 · arXiv 2609.24430 | Semantic ID 설계 선택을 재현 실험으로 점검 — 최신 유행을 비판적으로 읽기 | [어텐션·Transformer](../00_Foundations/06_attention-transformer.md) · [ML 기초](../00_Foundations/04_ml-basics.md) |
 
 ---
-링크 확인: 2026-11-10(기존 자료), 2026-11-16~17(추가 자료) — arXiv API · Crossref · HTTP 응답 · YouTube · GitHub로 제목 대조
+링크 확인: 2026-11-10(기존 자료), 2026-11-16~17(추가 자료), 2026-11-23~24(한국어 자료) — arXiv API · Crossref · HTTP 응답 · YouTube · GitHub로 제목 대조

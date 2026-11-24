@@ -2,9 +2,24 @@
 
 CNN → 탐지/분할 → ViT → 멀티모달(CLIP) → 디퓨전 생성 모델.
 
-> **읽는 법:** ①→②→③ 순서. **★** 는 먼저 읽을 코어 자료, **🆕** 는 2025~2026년에 나온 자료다.  
+> **읽는 법:** 영어가 부담되면 바로 아래 **🇰🇷 한국어로 시작하기**부터 본다. 영어 자료는 ①→②→③ 순서. **★** 는 먼저 볼 코어 자료, **🆕** 는 2025~2026년에 나온 자료다.  
 > `선수 지식`의 문서를 먼저 훑고 오면 수월하다. 읽고 정리한 자료는 `상태`를 ✅로 바꾸고 노트 폴더를 연결한다.  
 > 읽기 가이드·실습 과제·기억 점검 퀴즈는 [PRACTICE.md](PRACTICE.md), 실습 노트북은 [LABS.md](../LABS.md).
+
+## 🇰🇷 한국어로 시작하기
+
+영어 자료가 막막하면 여기서 시작한다. **★** 표시가 한국어로 먼저 볼 자료다. 번역서는 아래 영어 표의 원서와 내용이 같고, 영어 표에서 한국어판이나 한국어 해설이 있는 자료에는 🇰🇷 링크를 달아 두었다.
+
+| 유형 | 자료 | 왜 보나 |
+|---|---|---|
+| 책 | ★ **[컴퓨터 비전과 딥러닝](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=308306489)**<br>오일석 · 한빛아카데미 · 2023 | 한국인 교수가 쓴 컴퓨터 비전 교과서. 고전 비전부터 딥러닝까지 |
+| 책 | ★ **[밑바닥부터 시작하는 딥러닝 5 — 이미지 생성 모델](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=349271225)**<br>사이토 고키 · 개앞맵시 옮김 · 한빛미디어 · 2024 | VAE·디퓨전을 10단계로 직접 구현 |
+| 책 | **[만들면서 배우는 생성 AI (2판)](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=324278784)**<br>데이비드 포스터 · 박해선 옮김 · 한빛미디어 · 2023 | GAN·VAE·디퓨전·트랜스포머 생성 모델 전반 |
+| 영상 | **[ViT · DDPM 논문 리뷰](https://www.youtube.com/watch?v=0kgDve_vC1o)**<br>DSBA 연구실 · [DDPM](https://www.youtube.com/watch?v=_JQSMhqXw-4) | 아래 영어 목록의 ViT·DDPM을 한국어로 |
+| 영상 | **[CLIP 논문 리뷰](https://www.youtube.com/watch?v=HkkaKI6NN-8)**<br>논문익는마을 | 아래 ★ CLIP 논문을 한국어로 먼저 훑기 |
+| 영상 | 🆕 **[딥러닝논문읽기모임 — DiT 리뷰](https://www.youtube.com/watch?v=B7_ht9TDtIE)**<br>딥러닝논문읽기모임 · 2026 | 최신 논문을 꾸준히 한국어로 리뷰하는 채널 (U-Net 없는 디퓨전, DiT) |
+
+## 🌐 영어 자료
 
 **먼저 읽을 것 (★)**: ResNet → CLIP
 
@@ -22,14 +37,14 @@ CNN → 탐지/분할 → ViT → 멀티모달(CLIP) → 디퓨전 생성 모델
 |---|---|---|---|---|
 | ⬜ | 논문 | **[ImageNet Classification with Deep Convolutional Neural Networks (AlexNet)](https://doi.org/10.1145/3065386)**<br>Krizhevsky et al., 2012 · DOI | 딥러닝 시대를 연 논문 | [신경망](../00_Foundations/05_neural-networks.md) |
 | ⬜ | 논문 | **[Very Deep Convolutional Networks for Large-Scale Image Recognition (VGG)](https://arxiv.org/abs/1409.1556)**<br>Simonyan & Zisserman, 2014 · arXiv 1409.1556 | 작은 필터를 깊게 쌓는 설계 | [신경망](../00_Foundations/05_neural-networks.md) |
-| [✅](../03_Deep_Learning/2026-11-16_resnet-deep-residual-learning) | 논문 | ★ **[Deep Residual Learning for Image Recognition (ResNet)](https://arxiv.org/abs/1512.03385)**<br>He et al., 2015 · arXiv 1512.03385 | 잔차 연결로 100층 이상 학습 | [신경망](../00_Foundations/05_neural-networks.md) |
+| [✅](../03_Deep_Learning/2026-11-16_resnet-deep-residual-learning) | 논문 | ★ **[Deep Residual Learning for Image Recognition (ResNet)](https://arxiv.org/abs/1512.03385)**<br>He et al., 2015 · arXiv 1512.03385<br>🇰🇷 [동빈나 리뷰](https://www.youtube.com/watch?v=671BsKl8d0E) · [PR-170](https://www.youtube.com/watch?v=7fSgqlC7Wdo) · [혁펜하임 skip-connection](https://www.youtube.com/watch?v=Fypk0ec32BU) · [풀이 예시 노트](../03_Deep_Learning/2026-11-16_resnet-deep-residual-learning/summary.md) | 잔차 연결로 100층 이상 학습 | [신경망](../00_Foundations/05_neural-networks.md) |
 | ⬜ | 논문 | **[U-Net: Convolutional Networks for Biomedical Image Segmentation](https://arxiv.org/abs/1505.04597)**<br>Ronneberger et al., 2015 · arXiv 1505.04597 | 분할의 표준 구조. 디퓨전 모델의 뼈대로도 쓰임 | [신경망](../00_Foundations/05_neural-networks.md) |
-| ⬜ | 논문 | **[An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale (ViT)](https://arxiv.org/abs/2010.11929)**<br>Dosovitskiy et al., 2020 · arXiv 2010.11929 | 이미지에 Transformer 적용 | [어텐션·Transformer](../00_Foundations/06_attention-transformer.md) |
+| ⬜ | 논문 | **[An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale (ViT)](https://arxiv.org/abs/2010.11929)**<br>Dosovitskiy et al., 2020 · arXiv 2010.11929<br>🇰🇷 [DSBA 리뷰](https://www.youtube.com/watch?v=0kgDve_vC1o) | 이미지에 Transformer 적용 | [어텐션·Transformer](../00_Foundations/06_attention-transformer.md) |
 | ⬜ | 논문 | **[End-to-End Object Detection with Transformers (DETR)](https://arxiv.org/abs/2005.12872)**<br>Carion et al., 2020 · arXiv 2005.12872 | 탐지를 집합 예측으로 바꾼 구조 | [어텐션·Transformer](../00_Foundations/06_attention-transformer.md) |
-| ⬜ | 논문 | ★ **[Learning Transferable Visual Models From Natural Language Supervision (CLIP)](https://arxiv.org/abs/2103.00020)**<br>Radford et al., 2021 · arXiv 2103.00020 | 이미지-텍스트 대조학습. 멀티모달 모델의 기반 | [어텐션·Transformer](../00_Foundations/06_attention-transformer.md) · [선형대수](../00_Foundations/01_linear-algebra.md) |
+| ⬜ | 논문 | ★ **[Learning Transferable Visual Models From Natural Language Supervision (CLIP)](https://arxiv.org/abs/2103.00020)**<br>Radford et al., 2021 · arXiv 2103.00020<br>🇰🇷 [논문익는마을 리뷰](https://www.youtube.com/watch?v=HkkaKI6NN-8) | 이미지-텍스트 대조학습. 멀티모달 모델의 기반 | [어텐션·Transformer](../00_Foundations/06_attention-transformer.md) · [선형대수](../00_Foundations/01_linear-algebra.md) |
 | ⬜ | 논문 | **[Masked Autoencoders Are Scalable Vision Learners (MAE)](https://arxiv.org/abs/2111.06377)**<br>He et al., 2021 · arXiv 2111.06377 | 이미지의 75%를 가리고 복원하는 자기지도 학습 | [신경망](../00_Foundations/05_neural-networks.md) · [어텐션·Transformer](../00_Foundations/06_attention-transformer.md) |
 | ⬜ | 논문 | **[A ConvNet for the 2020s (ConvNeXt)](https://arxiv.org/abs/2201.03545)**<br>Liu et al., 2022 · arXiv 2201.03545 | ResNet을 한 단계씩 현대화하며 ViT와 비교 — ablation 읽기 연습에 최적 | [신경망](../00_Foundations/05_neural-networks.md) |
-| ⬜ | 논문 | **[Scalable Diffusion Models with Transformers (DiT)](https://arxiv.org/abs/2212.09748)**<br>Peebles & Xie, 2022 · arXiv 2212.09748 | U-Net 대신 Transformer를 쓴 디퓨전 — 최근 이미지·영상 생성의 기반 | [어텐션·Transformer](../00_Foundations/06_attention-transformer.md) · [신경망](../00_Foundations/05_neural-networks.md) |
+| ⬜ | 논문 | **[Scalable Diffusion Models with Transformers (DiT)](https://arxiv.org/abs/2212.09748)**<br>Peebles & Xie, 2022 · arXiv 2212.09748<br>🇰🇷 [딥러닝논문읽기모임 DiT 리뷰](https://www.youtube.com/watch?v=B7_ht9TDtIE) | U-Net 대신 Transformer를 쓴 디퓨전 — 최근 이미지·영상 생성의 기반 | [어텐션·Transformer](../00_Foundations/06_attention-transformer.md) · [신경망](../00_Foundations/05_neural-networks.md) |
 | ⬜ | 논문 | **[DINOv2: Learning Robust Visual Features without Supervision](https://arxiv.org/abs/2304.07193)**<br>Oquab et al., 2023 · arXiv 2304.07193 | 라벨 없이 학습한 범용 시각 특징 | [어텐션·Transformer](../00_Foundations/06_attention-transformer.md) |
 | ⬜ | 논문 | **[Step-by-Step Diffusion: An Elementary Tutorial](https://arxiv.org/abs/2406.08929)**<br>Nakkiran et al., 2024 · arXiv 2406.08929 | 디퓨전·플로 매칭을 최소한의 수학으로 처음부터 설명 | [신경망](../00_Foundations/05_neural-networks.md) · [확률·통계](../00_Foundations/03_probability-statistics.md) |
 
@@ -39,7 +54,7 @@ CNN → 탐지/분할 → ViT → 멀티모달(CLIP) → 디퓨전 생성 모델
 |---|---|---|---|---|
 | ⬜ | 논문 | **[Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks](https://arxiv.org/abs/1506.01497)**<br>Ren et al., 2015 · arXiv 1506.01497 | 2단계 객체 탐지의 표준 | [신경망](../00_Foundations/05_neural-networks.md) |
 | ⬜ | 논문 | **[You Only Look Once: Unified, Real-Time Object Detection (YOLO)](https://arxiv.org/abs/1506.02640)**<br>Redmon et al., 2015 · arXiv 1506.02640 | 1단계 실시간 탐지 | [신경망](../00_Foundations/05_neural-networks.md) |
-| ⬜ | 논문 | **[Denoising Diffusion Probabilistic Models (DDPM)](https://arxiv.org/abs/2006.11239)**<br>Ho et al., 2020 · arXiv 2006.11239 | 디퓨전 생성 모델의 출발점 | [신경망](../00_Foundations/05_neural-networks.md) · [확률·통계](../00_Foundations/03_probability-statistics.md) |
+| ⬜ | 논문 | **[Denoising Diffusion Probabilistic Models (DDPM)](https://arxiv.org/abs/2006.11239)**<br>Ho et al., 2020 · arXiv 2006.11239<br>🇰🇷 [DSBA 리뷰](https://www.youtube.com/watch?v=_JQSMhqXw-4) | 디퓨전 생성 모델의 출발점 | [신경망](../00_Foundations/05_neural-networks.md) · [확률·통계](../00_Foundations/03_probability-statistics.md) |
 | ⬜ | 논문 | **[High-Resolution Image Synthesis with Latent Diffusion Models (Stable Diffusion)](https://arxiv.org/abs/2112.10752)**<br>Rombach et al., 2021 · arXiv 2112.10752 | 잠재공간 디퓨전 — 이미지 생성 대중화 | [신경망](../00_Foundations/05_neural-networks.md) · [어텐션·Transformer](../00_Foundations/06_attention-transformer.md) |
 | ⬜ | 논문 | **[Flow Matching for Generative Modeling](https://arxiv.org/abs/2210.02747)**<br>Lipman et al., 2022 · arXiv 2210.02747 | 디퓨전의 뒤를 잇는 생성 모델 학습법 | [신경망](../00_Foundations/05_neural-networks.md) · [확률·통계](../00_Foundations/03_probability-statistics.md) |
 | ⬜ | 논문 | **[Classifier-Free Diffusion Guidance](https://arxiv.org/abs/2207.12598)**<br>Ho & Salimans, 2022 · arXiv 2207.12598 | 프롬프트 반영 강도를 조절하는 guidance scale의 원리 | [신경망](../00_Foundations/05_neural-networks.md) · [확률·통계](../00_Foundations/03_probability-statistics.md) |
@@ -54,4 +69,4 @@ CNN → 탐지/분할 → ViT → 멀티모달(CLIP) → 디퓨전 생성 모델
 | ⬜ | 논문 | 🆕 **[SmolVLM: Redefining small and efficient multimodal models](https://arxiv.org/abs/2504.05299)**<br>Marafioti et al., 2025 · arXiv 2504.05299 | 노트북에서도 도는 작은 VLM — 직접 뜯어보기 좋음 | [어텐션·Transformer](../00_Foundations/06_attention-transformer.md) |
 
 ---
-링크 확인: 2026-11-10(기존 자료), 2026-11-16~17(추가 자료) — arXiv API · Crossref · HTTP 응답 · YouTube · GitHub로 제목 대조
+링크 확인: 2026-11-10(기존 자료), 2026-11-16~17(추가 자료), 2026-11-23~24(한국어 자료) — arXiv API · Crossref · HTTP 응답 · YouTube · GitHub로 제목 대조

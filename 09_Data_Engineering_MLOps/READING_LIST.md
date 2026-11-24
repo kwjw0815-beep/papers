@@ -2,9 +2,29 @@
 
 모델보다 시스템. 모델을 만들고 난 뒤에 생기는 문제를 다룬다.
 
-> **읽는 법:** ①→②→③ 순서. **★** 는 먼저 읽을 코어 자료, **🆕** 는 2025~2026년에 나온 자료다.  
+> **읽는 법:** 영어가 부담되면 바로 아래 **🇰🇷 한국어로 시작하기**부터 본다. 영어 자료는 ①→②→③ 순서. **★** 는 먼저 볼 코어 자료, **🆕** 는 2025~2026년에 나온 자료다.  
 > `선수 지식`의 문서를 먼저 훑고 오면 수월하다. 읽고 정리한 자료는 `상태`를 ✅로 바꾸고 노트 폴더를 연결한다.  
 > 읽기 가이드·실습 과제·기억 점검 퀴즈는 [PRACTICE.md](PRACTICE.md), 실습 노트북은 [LABS.md](../LABS.md).
+
+## 🇰🇷 한국어로 시작하기
+
+영어 자료가 막막하면 여기서 시작한다. **★** 표시가 한국어로 먼저 볼 자료다. 번역서는 아래 영어 표의 원서와 내용이 같고, 영어 표에서 한국어판이나 한국어 해설이 있는 자료에는 🇰🇷 링크를 달아 두었다.
+
+| 유형 | 자료 | 왜 보나 |
+|---|---|---|
+| 책 | ★ **[머신러닝 시스템 설계](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=312816103)**<br>칩 후옌 · 김대근·김영민 옮김 · 한빛미디어 · 2023 | 아래 영어 목록 Designing Machine Learning Systems의 한국어판 |
+| 웹 | ★ **[MLOps for ALL · MLOps for MLE](https://mlops-for-all.github.io/)**<br>모두의 MLOps (마키나락스 지원) | MLOps 환경을 직접 구축하며 배우는 무료 한국어 튜토리얼 |
+| 강의 | ★ **[생활코딩 DATABASE2 - MySQL · SQL JOIN](https://www.youtube.com/playlist?list=PLuHgQVnccGMCgrP_9HL3dAcvdt8qOZxjW)**<br>생활코딩 · [SQL JOIN](https://www.youtube.com/playlist?list=PLuHgQVnccGMAG1O1BRZCT3wkD_aPmPylq) · [혼자 공부하는 SQL](https://www.youtube.com/playlist?list=PLVsNizTWUw7GCfy5RH27cQL5MeKYnl8Pm) | SQL을 처음 배우는 한국어 강의 |
+| 웹 | **[머신러닝의 규칙 (한국어)](https://developers.google.com/machine-learning/guides/rules-of-ml?hl=ko)**<br>Google | 아래 영어 목록 ★ Rules of Machine Learning의 한국어판 |
+| 책 | **[견고한 데이터 엔지니어링](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=319158250)**<br>조 라이스 · 맷 하우슬리 · 김인범 옮김 · 한빛미디어 · 2023 | 데이터 엔지니어링 수명 주기(수집·저장·변환·서빙)를 정리한 책 (원서 Fundamentals of Data Engineering) |
+| 책 | **[데이터 중심 애플리케이션 설계](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=140018308)**<br>마틴 클레프만 · 김영준 외 옮김 · 위키북스 · 2018 | 아래 영어 목록 DDIA의 한국어판 (1판) |
+| 책 | **[머신러닝 디자인 패턴](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=281626960)**<br>락시마난 외 · 맹윤호·임지순 옮김 · 한빛미디어 · 2021 | MLOps를 30가지 패턴으로 |
+| 책 | **[데이터 분석을 위한 SQL 레시피](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=138285757)**<br>가사키 나가토 외 · 윤인성 옮김 · 한빛미디어 · 2018 | 매출·사용자·리포팅 분석 SQL 예제 모음 |
+| 영상 | 🆕 **[데이터 연금술 · 중앙에서 Data Mesh로](https://www.youtube.com/watch?v=tHBPV_iwh00)**<br>우아콘 2025 · 토스 TMC25 · [토스 Data Mesh](https://www.youtube.com/watch?v=P00wKMrqBwE) | 국내 기업의 데이터 파이프라인·데이터 소유권 구조 변화 |
+| 블로그 | 🆕 **[AI 실시간 추천을 위한 Flink 스트림 조인 서비스 구축기](https://hyperconnect.github.io/2025/06/11/azar-flink-real-time-stream-join-service.html)**<br>하이퍼커넥트 · 2025 | 실시간 피처 파이프라인 설계 |
+| 영상 | **[MLOps 춘추전국시대 정리](https://www.youtube.com/watch?v=I-sa8bOcOUk)**<br>변성윤 · MLOps KR | MLOps 도구 지형을 한 번에 (2021) |
+
+## 🌐 영어 자료
 
 **먼저 읽을 것 (★)**: Rules of Machine Learning → Hidden Technical Debt in Machine Learning Systems
 
@@ -15,7 +35,7 @@
 | ⬜ | 강의 | **[The Missing Semester of Your CS Education](https://missing.csail.mit.edu/)**<br>MIT | 셸·Git·디버깅 등 학교에서 안 가르치는 도구 | [도구](../00_Foundations/08_data-tools.md) |
 | ⬜ | 실습 | **[SQL Tutorial](https://mode.com/sql-tutorial/)**<br>Mode | 분석용 SQL을 기초부터 윈도 함수까지 | [도구](../00_Foundations/08_data-tools.md) |
 | ⬜ | 실습 | **[SQLBolt](https://sqlbolt.com/)**<br>SQLBolt | 브라우저에서 바로 푸는 SQL 기초 연습 | [도구](../00_Foundations/08_data-tools.md) |
-| ⬜ | 문서 | ★ **[Rules of Machine Learning: Best Practices for ML Engineering](https://developers.google.com/machine-learning/guides/rules-of-ml)**<br>Martin Zinkevich, Google | "첫 모델은 단순하게" 등 43개 실전 규칙 | [ML 기초](../00_Foundations/04_ml-basics.md) |
+| ⬜ | 문서 | ★ **[Rules of Machine Learning: Best Practices for ML Engineering](https://developers.google.com/machine-learning/guides/rules-of-ml)**<br>Martin Zinkevich, Google<br>🇰🇷 [한국어판](https://developers.google.com/machine-learning/guides/rules-of-ml?hl=ko) | "첫 모델은 단순하게" 등 43개 실전 규칙 | [ML 기초](../00_Foundations/04_ml-basics.md) |
 | ⬜ | 문서 | 🆕 **[uv 문서](https://docs.astral.sh/uv/)**<br>Astral | 요즘 표준이 된 Python 패키지·가상환경 도구 (nanochat 등 최신 저장소가 사용) | [도구](../00_Foundations/08_data-tools.md) |
 | ⬜ | 문서 | **[DuckDB 문서](https://duckdb.org/docs/)**<br>DuckDB | 노트북·로컬에서 대용량 분석 SQL — pandas와 함께 쓰기 | [도구](../00_Foundations/08_data-tools.md) |
 
@@ -26,8 +46,8 @@
 | ⬜ | 강의 | **[Made With ML](https://madewithml.com/)**<br>Goku Mohandas | 설계→개발→배포→반복 MLOps 실습 (무료) | [도구](../00_Foundations/08_data-tools.md) · [ML 기초](../00_Foundations/04_ml-basics.md) |
 | ⬜ | 강의 | **[Data Engineering Zoomcamp](https://github.com/DataTalksClub/data-engineering-zoomcamp)**<br>DataTalks.Club · GitHub | 수집→웨어하우스→변환→배치·스트리밍을 프로젝트로 (무료) | [도구](../00_Foundations/08_data-tools.md) |
 | ⬜ | 강의 | **[MLOps Zoomcamp](https://github.com/DataTalksClub/mlops-zoomcamp)**<br>DataTalks.Club · GitHub | 실험 추적·파이프라인·배포·모니터링 실습 (무료) | [도구](../00_Foundations/08_data-tools.md) · [ML 기초](../00_Foundations/04_ml-basics.md) |
-| ⬜ | 책 | **[Designing Data-Intensive Applications](https://dataintensive.net/)**<br>Martin Kleppmann | 데이터 시스템 설계의 바이블 | [도구](../00_Foundations/08_data-tools.md) |
-| ⬜ | 책 | **[Designing Machine Learning Systems](https://github.com/chiphuyen/dmls-book)**<br>Chip Huyen, 2022 · GitHub | 데이터·피처·배포·모니터링·지속 학습까지 ML 시스템 설계 | [ML 기초](../00_Foundations/04_ml-basics.md) |
+| ⬜ | 책 | **[Designing Data-Intensive Applications](https://dataintensive.net/)**<br>Martin Kleppmann<br>🇰🇷 [한국어판 (1판)](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=140018308) | 데이터 시스템 설계의 바이블 | [도구](../00_Foundations/08_data-tools.md) |
+| ⬜ | 책 | **[Designing Machine Learning Systems](https://github.com/chiphuyen/dmls-book)**<br>Chip Huyen, 2022 · GitHub<br>🇰🇷 [한국어판](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=312816103) | 데이터·피처·배포·모니터링·지속 학습까지 ML 시스템 설계 | [ML 기초](../00_Foundations/04_ml-basics.md) |
 | ⬜ | 논문 | ★ **[Hidden Technical Debt in Machine Learning Systems](https://papers.nips.cc/paper/2015/hash/86df7dcfd896fcaf2674f757a2463eba-Abstract.html)**<br>Sculley et al., 2015 | ML 코드는 전체 시스템의 작은 일부 — MLOps의 출발점 | [ML 기초](../00_Foundations/04_ml-basics.md) |
 | ⬜ | 논문 | **[The ML Test Score: A Rubric for ML Production Readiness and Technical Debt Reduction](https://doi.org/10.1109/BigData.2017.8258038)**<br>Breck et al., 2017 · DOI | 프로덕션 준비도 체크리스트 28항목 | [ML 기초](../00_Foundations/04_ml-basics.md) |
 | ⬜ | 논문 | **[150 Successful Machine Learning Models: 6 Lessons Learned at Booking.com](https://doi.org/10.1145/3292500.3330744)**<br>Bernardi et al., 2019 · DOI | 오프라인 지표 향상이 비즈니스 성과로 이어지지 않는 이유 등 현업 교훈 | [ML 기초](../00_Foundations/04_ml-basics.md) · [인과·실험](../00_Foundations/07_causal-experiment-basics.md) |
@@ -51,4 +71,4 @@
 | ⬜ | 논문 | **[Machine Learning Operations (MLOps): Overview, Definition, and Architecture](https://arxiv.org/abs/2205.02302)**<br>Kreuzberger et al., 2022 · arXiv 2205.02302 | MLOps 용어·역할·구조 정리 | [ML 기초](../00_Foundations/04_ml-basics.md) |
 
 ---
-링크 확인: 2026-11-10(기존 자료), 2026-11-16~17(추가 자료) — arXiv API · Crossref · HTTP 응답 · YouTube · GitHub로 제목 대조
+링크 확인: 2026-11-10(기존 자료), 2026-11-16~17(추가 자료), 2026-11-23~24(한국어 자료) — arXiv API · Crossref · HTTP 응답 · YouTube · GitHub로 제목 대조

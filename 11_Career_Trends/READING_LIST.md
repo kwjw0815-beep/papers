@@ -2,9 +2,24 @@
 
 꾸준히 따라갈 소스. 전부 읽으려 하지 말고 2~3개만 구독한다.
 
-> **읽는 법:** ①→②→③ 순서. **★** 는 먼저 읽을 코어 자료, **🆕** 는 2025~2026년에 나온 자료다.  
+> **읽는 법:** 영어가 부담되면 바로 아래 **🇰🇷 한국어로 시작하기**부터 본다. 영어 자료는 ①→②→③ 순서. **★** 는 먼저 볼 코어 자료, **🆕** 는 2025~2026년에 나온 자료다.  
 > `선수 지식`의 문서를 먼저 훑고 오면 수월하다. 읽고 정리한 자료는 `상태`를 ✅로 바꾸고 노트 폴더를 연결한다.  
 > 읽기 가이드·실습 과제·기억 점검 퀴즈는 [PRACTICE.md](PRACTICE.md), 실습 노트북은 [LABS.md](../LABS.md).
+
+## 🇰🇷 한국어로 시작하기
+
+영어 자료가 막막하면 여기서 시작한다. **★** 표시가 한국어로 먼저 볼 자료다. 번역서는 아래 영어 표의 원서와 내용이 같고, 영어 표에서 한국어판이나 한국어 해설이 있는 자료에는 🇰🇷 링크를 달아 두었다.
+
+| 유형 | 자료 | 왜 보나 |
+|---|---|---|
+| 보고서 | ★ 🆕 **[SPRi AI Brief (월간)](https://discuss.pytorch.kr/t/spri-ai-brief-2026-6-gpt-5-5-ai-pdf-28p/10681)**<br>소프트웨어정책연구소 · [PyTorch KR의 SPRi 글 모음](https://discuss.pytorch.kr/tag/spri) | 매달 AI 정책·산업·기술·인력 동향을 한국어로 정리. PyTorch KR에 호마다 소개된다 |
+| 법령 | ★ 🆕 **[인공지능 발전과 신뢰 기반 조성 등에 관한 기본법 (AI 기본법)](https://www.law.go.kr/LSW/lsRvsDocInfoR.do?lsiSeq=282791)**<br>법제처 · 2026-01-22 시행 | 고영향 AI·생성형 AI 표시 의무 등 AI·데이터 직무에 직접 영향을 주는 법 |
+| GitHub | ★ **[AI 엔지니어 기술 면접 스터디](https://github.com/boost-devs/ai-tech-interview)**<br>boost-devs · [데이터 사이언스 면접 질문 (변성윤)](https://github.com/zzsza/Datascience-Interview-Questions) | ML·딥러닝·통계 면접 질문과 답 (한국어, 2026 갱신) |
+| 뉴스 | 🆕 **[한국 대표 '독파모', 업스테이지·SK·LG 3파전](https://www.korea.kr/news/policyNewsView.do?newsId=148970236)**<br>대한민국 정책브리핑 | 정부 독자 AI 파운데이션 모델 프로젝트 현황 |
+| 책 | **[데이터 과학자 되는 법](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=283478525)**<br>재클린 놀리스 외 · 이창화 옮김 · 한빛미디어 · 2021 | 취업·이직·커리어 전반 (원서 Build a Career in Data Science) |
+| 영상 | 🆕 **[국내 기업 기술 컨퍼런스 재생목록](https://www.youtube.com/playlist?list=PL1DJtS1Hv1PiGXmgruP1_gM2TSvQiOsFL)**<br>토스 SLASH · 우아콘 2025 · if(kakao)25 · [우아콘 2025](https://www.youtube.com/playlist?list=PLgXGHBqgT2TuPhUGHTe1oFkWJDu3u6-Si) · [if(kakao)25](https://www.youtube.com/playlist?list=PLwe9WEhzDhwG1H81qHrjc05sj75cGa1fi) | 국내 데이터·ML 실무를 한국어로 듣는 가장 쉬운 방법 |
+
+## 🌐 영어 자료
 
 ## ① 입문
 
@@ -24,7 +39,7 @@
 | 상태 | 유형 | 자료 | 왜 읽나 | 선수 지식 |
 |---|---|---|---|---|
 | ⬜ | 강의 | **[부스트코스](https://www.boostcourse.org/)**<br>NAVER Connect | 한국어 무료 AI·데이터 강의 | - |
-| ⬜ | 책 | **[Machine Learning Interviews Book](https://huyenchip.com/ml-interviews-book/)**<br>Chip Huyen | ML 직무 종류·면접 과정·문제 모음 (웹 무료) | - |
+| ⬜ | 책 | **[Machine Learning Interviews Book](https://huyenchip.com/ml-interviews-book/)**<br>Chip Huyen<br>🇰🇷 [한국어 면접 질문 모음](https://github.com/boost-devs/ai-tech-interview) | ML 직무 종류·면접 과정·문제 모음 (웹 무료) | - |
 | ⬜ | 블로그 | **[토스 테크](https://toss.tech/)**<br>Toss | 국내 기업 기술 블로그 | - |
 | ⬜ | 블로그 | **[우아한형제들 기술블로그](https://techblog.woowahan.com/)** †<br>우아한형제들 | 국내 기업 기술 블로그 (추천·실험 플랫폼 글 다수) | - |
 | ⬜ | 블로그 | **[카카오 테크](https://tech.kakao.com/)**<br>Kakao | 국내 기업 기술 블로그 | - |
@@ -53,4 +68,4 @@
 † 표시는 이 환경에서 접속이 차단되어 자동 확인을 못 한 링크(널리 알려진 주소).
 
 ---
-링크 확인: 2026-11-10(기존 자료), 2026-11-16~17(추가 자료) — arXiv API · Crossref · HTTP 응답 · YouTube · GitHub로 제목 대조
+링크 확인: 2026-11-10(기존 자료), 2026-11-16~17(추가 자료), 2026-11-23~24(한국어 자료) — arXiv API · Crossref · HTTP 응답 · YouTube · GitHub로 제목 대조
